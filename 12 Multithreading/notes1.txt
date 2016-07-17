@@ -1,0 +1,50 @@
+
+
+Multithreading:
+
+As we load public static void main, we have one thread in action i.e. the main thread. 
+
+Thread class is in lang package. 
+Use of thread class: Thread is unit of execute. When we write public static void main, that thread
+executes in our program. That function is a unit of execute. 
+Now we would have more threads executing simultaneously. How ?
+We create object of thread class and we have another thread in parallel. 
+Creating object does not mean thread is started. 
+Thread is a unit of execution, so whenever it executes, it wants to know what it has come for?
+Main thread knows what it has come for. 
+Every thread should have a reply for what its lifetime is. 
+When we say thread.start, the thread comes into queue. 
+Suppose another thread comes into queue. They would be execute whenever jvm has time. 
+
+Preemption - leaving before the speculated end time. 
+Multithreaded class: Every object of class will act as a seperate thread. 
+
+
+
+HW:
+Wap to read a file from one location and would write same file contents at 4 different locations.
+Read from file A. Write into B, C, D and E. 
+A should be 10 or 15MB or more than that. 
+Read that using input stream and translate to B,c, d and e.
+Record total time taken for translating.
+
+Next time: we will create seperate threads. 
+there will be 4 threads.
+I will initially open the file for reading.
+there will be 4 threads which utilize the data read from first file and each thread will write
+to a seperate location. 
+Calculate the time taken to write for each of the threads. 
+I want to see when multiple threads do the job 
+which is faster? single thread or multiple threads doing the same job. 
+comparasion between parallel and sequential.
+first task is sequential when first file written, then the second one and third one.
+which one gives better performance and by how much. 
+
+
+
+
+
+
+
+
+

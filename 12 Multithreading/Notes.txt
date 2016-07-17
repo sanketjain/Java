@@ -1,0 +1,26 @@
+
+
+Multithreading:
+
+As we load public static void main, we have one thread in action i.e. the main thread. 
+
+Thread class is in lang package. 
+Use of thread class: Thread is unit of execute. When we write public static void main, that thread
+executes in our program. That function is a unit of execute. 
+Now we would have more threads executing simultaneously. How ?
+We create object of thread class and we have another thread in parallel. 
+Creating object does not mean thread is started. 
+Thread is a unit of execution, so whenever it executes, it wants to know what it has come for?
+Main thread knows what it has come for. 
+Every thread should have a reply for what its lifetime is. 
+When we say thread.start, the thread comes into queue. 
+Suppose another thread comes into queue. They would be execute whenever jvm has time. 
+
+
+
+
+
+
+
+
+

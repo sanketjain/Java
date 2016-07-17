@@ -1,0 +1,37 @@
+
+Static: If a method is defined static, we do not need to use individual objects.
+We can directly call classname.methodname.
+Eg: System.out.println. out method of String class is static. 
+Math.sin(), Math.exp(), Math.power(), Math.add(). These are already created. They are utility functions.
+They are static. 
+
+
+Constructor: 
+Function of a class that has same name as class. They are called whenever object is created. It is used to initialize values.
+
+Static members should not be initialized with constructor cuz constructor is related to object creating. S
+Static members do not depend on object being created. They are there by default. To initialize static members we
+have static block.
+
+Static block: Static block is a block of lines of code in a class which gets automatically called whenever this class is
+loaded into memory.
+Static block gets called only once, there is no way to call it second time. 
+
+Singleton design pattern: A class for which we cannot create more than one object. 
+
+Inner class: Class inside a class
+Outer class cannot use resources of Inner class. 
+
+
+Inheritance: In java a child can have only one parent. A parent can have multiple child but
+a child can have only one parent. We do inheritance for extending the features, for specification,
+
+
+
+
+
+
+
+
+
+ 

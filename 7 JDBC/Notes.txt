@@ -1,0 +1,160 @@
+Supporting programs for this chapter are inside Eclipse > java730 > src > java730 
+Jdbc1
+Jdbc2
+---------------------------
+
+
+JDBC:
+
+jdbc is API (application programming interface). 
+API is a set of library, set of classes in java, which allow you to connect to databases
+and perform different operations.
+
+Java is a different platform. Database is entirely different platform. 
+Java is by Oracle. SQL server (one of database) is by Microsoft.  
+Talk between these two is possible by mediator. In this case it is called JDBC driver.
+
+
+4 types of JDBC drivers:
+
+type 1 JDBC-ODBC Bridge Driver: ODBC is in control panel. Go to Control Panel >> Systems and Security >> Adminisitrative Tools. They are architecture dependent.
+ODBC contains drivers for databases. We connect our Java program, JDBC to ODBC and not directly to databases. ODBC is futher connected to all the
+databases using different drivers. Every database is connected to driver with ODBC. Connectivity and performance is slow. Because of long passage.
+Advantage: We just need to connect to ODBC only. ODBC is not supported on all platforms. 
+
+type 2 Native API Driver: Created in C or C++. They are native API, that means they are in executable language, binary language of the system which I am 
+working on. They are fast because they are in C and in native language. But problem is: They are platform dependent. 
+
+type 3 Third party server drivers: written in java, platform independent. Third party servers act as gateway between java program and database.
+Reduces the load on dataserver. Eg: Login, etc. 
+
+Type 4, very important:
+Database API: written in java, platform independent. Best choice. Some database providers like Oracle, when we install these databases, they come 
+pre-installed with drivers for java. Eg: ojdbc14.jar inside: oraclexe >> app >> oracle >> product >> 10.2.0 >> server >> jdbc >> lib
+
+Go to
+C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+
+double click ojdbc5. Then use this path to oracle Driver:
+ojdbc5.jar\oracle\jdbc - ZIP archive, unpacked size 4,599,227 bytes
+
+Driver is created in java (in case of Database API) and it is created by same company as our database provider. So communication is best. 
+
+
+--------------------
+Starting Oracle server:
+
+Find sql command line from Cortana.
+to connect, type conn
+user-name: system
+password: 
+If it gives some error like  ORA.... TNS protocol adapter error
+then it means oracle services are not running. Go to:
+Control Panel\System and Security\Administrative Tools
+then Start OracleServiceXE (check 14th min of video 2016-05-20 07.41 java_Azam.mp4)
+
+---------------------
+Running SQL commands;
+
+//user: system
+//password: albert
+
+//user: sanket
+//password: j2ee
+
+//user: java730
+//password: j2ee
+
+//To find all tables - http://onewebsql.com/blog/list-all-tables
+select tablespace_name, table_name from all_tables;; //To list all tables accessible to the current user.
+
+create user java730 identified by j2ee; //create new schema (user). User is created with this command
+grant connect, resource to java730; //grant privileges to user.
+conn //connecting
+java730 //username is java730
+j2ee //password is j2ee
+
+create table courses(  //commands to create a table. We create 2 tables courses and student.
+cid number(3), 
+//first feild is cid (course id) and it should be numeric. number(3) means it will be 3 digit and 
+//it will be my primary key. primary key means every course will have a different id.
+cname varchar2(10), // cname is course name. varchar is variable character. 10 means maximum is 10 characters. 
+//C consumes 1 byte, C++ cosumes 2 byte. Java consumes 4 byte. Asp.net consumes 10 bytes.
+duration number(3), //duration is numeric. it is number of hours. 
+fee number(7,2)); //total 7 digits. last 2 will be after decimal. before that we will have 5. 
+
+
+//7th video 16th min
+create table students( //create another table
+sid number(3) primary key,
+sname varchar2(10), //student name
+email varchar2(10), //email of student
+cid number(3) references courses(cid));
+//suppose we put course #10. But here we have only 3 courses. So we should not be allowed to do that.
+//Thats why we use references. References will check value from courses table using courses(cid)
+
+//Lets put some data in courses table:
+insert into courses values(111, 'C prog", 76543); //inserting courseid, course name, fee
+insert into courses values(222, 'C++ prog', 35643);
+insert into courses values(333, 'Java prog', 89643);
+insert into courses (cid, cname) values (444, 'java adv'); 
+//we inserted only cid and cname, but no fee. So fee would be inserted as null
+
+//Lets put data in students table:
+insert into students values(
+1, 'anusha', 'a@a.com', 222);
+insert into students values(
+2, 'vinusha', 'v@a.com', 111);
+insert into students values(
+3, 'anisha', 'an@a.com', 222);
+insert into students values(
+4, 'kaluram', null, null); //This is another way to keep two columns empty
+
+commit; //it saves what we did so far
+desc courses; //checks table structure
+desc students;
+desc chair;
+
+//fetch data (selecting) from tables
+select cname from courses;
+select cname.fee from courses;
+select * from courses;
+select * from courses where fee<50000;
+select * from courses where fee is null;
+select * from students where sname like 'a%';
+select * from students where sname like'%a';
+
+--------------------
+Lets do all this by java in eclipse IDE:
+Note: I have ojdbc6 instead of ojdbc14. Watch video at 28 min. I added new ojdbc6 library.
+
+Open Eclipse > File > New > Java Project > Project Name (java730) > Next > click Libraries >
+Add External JARs > Go to: C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib > add ojdbc6 > Finish
+New project is created. In reference libraries(Eclipse>PackageExplorer>java730>Referenced Libraries) we have our driver ojdbc6.jar
+ 
+Creating new class:
+Go to: (Eclipse>PackageExplorer>java730>src). Right click src > new > Class > Name it (Jdbc1)j > Finish
+
+First job to connect java program to oracle, we should have mediator(driver is mediator). 
+
+
+type exit to get out of run sql command line.
+
+--------------
+Connect to Jdbc is in file Jdbc1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

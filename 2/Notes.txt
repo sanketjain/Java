@@ -1,0 +1,10 @@
+Folder Typecasting: Converting one datatype into another.
+
+
+Java programs:
+
+Typecasting1: datatypes which is small and which is big.
+
+Typecasting2: Convert string to integer
+
+Typecasting3: concatenation of string to integer
