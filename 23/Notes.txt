@@ -1,0 +1,15 @@
+Supporting files are in org.javaiw.misc
+MiscCalendar.java
+MiscFormat.java
+MiscTask1.java + MiscTask2.java
+MiscRandom.java
+Lambda1.java + MyIntegerCalculator.java
+
+These codes are mainly for theoretical importance
+
+
+Reflection
+Introspection: looking into a class
+How to get details of what my class contains ? class is not human readable format. 
+
+

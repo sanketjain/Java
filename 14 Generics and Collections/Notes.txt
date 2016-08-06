@@ -1,0 +1,32 @@
+Supporting files are: 
+org.javaiw.generics - IStack.java, TStack.java, TStack1.java
+org.javaiw.collections (These all are generics)- ArrayListDemo.java, 
+Student.java + ArrayList1.java, LinkedListDemo.java
+
+1. Generics
+
+2. Collections: 
+Collections heirarchy is in package java.util
+At top of heirarchy we have interface called collection
+Collection is an interface and it is inherited into few other interfaces.
+
+After IStack, TStack, TStack1:
+
+First interface we work is list
+
+Few characteristics of list: 
+1. Indefinite size, dynamic. 
+2. Index. 
+3. Order of element is preserved. 
+4. List allows duplicacy. 
+5. Allows to add null elements.
+
+Where do we use collections ? Google it. Interesting read. 
+http://stackoverflow.com/questions/4290132/java-collections-which-collection-to-use-and-when
+
+
+
+
+
+
+

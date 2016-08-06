@@ -1,0 +1,41 @@
+Supporting files are in org.javaiw.collections
+Student1.java + TreeSetDemo.java1, 
+Student1.java + TreeSetDemo.java2 + MyComparator.java,  
+Student1.java + HashSetDemo.java
+Student1.java + VectorDemo.java
+Student1.java + MapDemo.java
+Student1.java + HashTable.java
+Student1.java + PropertiesDemo.java
+Student1.java + PropDemo2.java
+
+
+Set: Set is inherited by two classes: HashSet and TreeSet
+
+Tree Set - Tree means binary search tree. When we retrieve elements from binary search tree we get them in ascending order. 
+Effectively in case of a tree set, whenever we get them out, we get in ascending order. Means we don't retrieve elements in same order as we kept.
+
+When we are creating any datastructure object, any collection object. The generic datatype can be replaced by any class. 
+It should not be integer, string or double, it can be any class.  
+
+HashSet
+
+Vector: It is same as ArrayList. Except that vector is by default synchronized. 
+ArrayList is dynamic array
+
+DataStructures we know:
+ArrayList
+LinkedList
+HashSet
+TreeSet
+Comparable
+Comparator
+Vector
+Stack
+
+Map: Key-Value pair
+On left hand size is key
+On right hand size is called value
+We cannot store single elements like ArrayList or Vector. But we put double elements. 
+
+
+
