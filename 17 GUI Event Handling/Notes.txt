@@ -1,6 +1,0 @@
-Supporting files are Calc.java
-
-Created Calculator app
-
-
-
