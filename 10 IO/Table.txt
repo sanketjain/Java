@@ -1,3 +1,0 @@
-1 , sanket, javaadv, 787
-2 , joy, jaabasic, 987
-3 , zen, j2ee, 345
