@@ -1,0 +1,29 @@
+package org.javaiw.serverMain;
+
+import java.util.Scanner;
+import net.webservicex.GlobalWeather;
+import net.webservicex.GlobalWeatherSoap;
+
+//We got main class here. And in net.webservice we got entire webservice as a stub
+//GlobalWeather.java is main class
+public class Main {
+
+	public static void main(String[] args) {
+		
+		GlobalWeather srvc = new GlobalWeather();
+		GlobalWeatherSoap soap = srvc.getGlobalWeatherSoap(); //this would return object of global weather soap
+
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter the country name");
+		String country = in.nextLine();
+		
+		String cities = soap.getCitiesByCountry(country);
+		System.out.println(cities);
+		
+		System.out.println("Enter the city name");
+		String city = in.nextLine();
+		String weather = soap.getWeather(city, country);
+		System.out.println("Result is \n\n" + weather);
+	}
+}
+

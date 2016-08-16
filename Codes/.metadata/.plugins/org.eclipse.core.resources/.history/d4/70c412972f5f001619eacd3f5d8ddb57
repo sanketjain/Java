@@ -1,0 +1,5 @@
+package org.javaiw.model;
+
+public class ProductData {
+
+}

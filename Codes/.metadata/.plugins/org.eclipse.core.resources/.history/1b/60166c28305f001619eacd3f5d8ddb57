@@ -1,0 +1,16 @@
+package org.javaiw.model;
+
+import java.util.HashMap;
+
+//This is dataservice
+//There are two ways to use dataservice
+//First one is perfect and correct: connect your dataservice to database. 
+//Second way is slightly lethargic: work with virtual database. This example is about virtual database.
+public class ProductData {
+	
+	static Map<Integer,Product> data;
+	static{
+		data = new HashMap<>();
+	}
+
+}
