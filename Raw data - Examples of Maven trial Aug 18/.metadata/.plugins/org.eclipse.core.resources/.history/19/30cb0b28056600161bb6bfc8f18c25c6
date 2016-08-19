@@ -1,0 +1,51 @@
+package org.javaiw.rest2.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.websocket.server.PathParam;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.javaiw.rest1.model.Product;
+import org.javaiw.rest1.model.ProductData;
+@Path("Products")
+public class MyService {	
+ProductData data = new ProductData();
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<Product> getProducts(){
+		return new ArrayList<>(data.getAllProducts().values());
+	}
+	
+	@GET
+	@Path("/(ProductId)")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<Product> getProductById(@PathParam("ProductId") int ProductId){
+		Product p1 = data.getAllProducts().get(ProductId);
+		ArrayList<Product> list = new ArrayList<>();
+		list.add(p1);
+		return list;
+	}
+	
+	@POST
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Product addProduct(Product product){
+		return data.addProduct(product.getProductName(), product.getPrice());
+	}
+	
+	@DELETE
+	@Produces(MediaType.TEXT_PLAIN)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public boolean deleteProduct(Product product){
+		return data.removeProduct(product.getProductId());
+	}
+
+}

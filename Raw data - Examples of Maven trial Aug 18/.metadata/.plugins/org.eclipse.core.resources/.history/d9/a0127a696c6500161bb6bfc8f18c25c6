@@ -1,0 +1,5 @@
+package org.javaiw.rest1.model;
+
+public class Product {
+
+}
