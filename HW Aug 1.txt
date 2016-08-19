@@ -1,0 +1,16 @@
+HW Date 
+
+Create a jsp
+after doing settings write
+
+should have table accounts with: custid, cname, openingdate, balance
+
+
+<bank: create cname="sanket" opbalance="35400"/>
+<bank: withdraw accno="123" amount="1235">
+
+ensure that amount is withdrawn and respond if insufficient funds
+
+withdraw
+deposit
+create account

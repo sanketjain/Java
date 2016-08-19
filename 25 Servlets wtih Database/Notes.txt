@@ -1,0 +1,42 @@
+Supporting files are:
+1. Web1 > Java Resources > src > org.javaiw.servlets > Serv1 //How does servlet work ?
+2. { Web1 > WebContent > file1a.html } + { Web1 > Java Resources > src > org.javaiw.servlets > FrmServlet1a.java } // Servlet and HTML without database
+3. { Web1 > WebContent > file1b.html } + { Web1 > Java Resources > src > org.javaiw.servlets > FrmServlet1b.java } // Connects to database :)
+4. Web1 > Java Resources > src > org.javaiw.servlets > HWTable.java
+
+--------------
+response types
+
+form data
+jdbc application
+
+redirects, forwarding and include
+
+page scope
+request scope
+
+statemanagement(Cookie)
+session management (HttpSession)
+
+session scope
+application scope
+
+user profile application
+
+session listeners
+filters
+
+-----------
+Go to file new > Dynamic Web Project > Project Name-web3, server-tomcatv8, webmoduleversion>3.1 (means javaee7) > Finish
+After servlets we will use maven and in maven we don't create dynamic projects.
+
+URL mapping: how will server accept the call? /Serv1 means this is the servlet being referred to. 
+
+Connect to java2 database at 20min. 
+
+
+HW:
+using select query and getting into the result set
+
+init function will connect to database, create a connection, create a prepared statement from table name
+within doget write code to fetch data from resultset and show that in form of html table

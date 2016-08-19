@@ -1,0 +1,28 @@
+Supporting files are:
+
+
+Difference between rpc and document:
+Document shows data type.
+RPC does not show data type. We need to go to xsd document. Datatypes of arguments is not in WSDL of RPC, we need to go to xsd document.
+
+----------------------------------
+
+Creating Restful web service
+
+We need jersey restful api 
+Jersey is a maven application. 
+Maven is java project management architecture. It makes easy to manage java project and its dependencies. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
