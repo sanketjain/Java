@@ -1,0 +1,65 @@
+
+Supporting files are:
+CalcAdapter.java
+
+Also introduced important concept of anonymous class.
+
+Y.class and B.class are normal class.
+Y$1.class is anonymous class. It is named $1 because we did not give anyname. 
+
+
+
+----------------------
+
+
+Started Swing
+At about 30-35 min of video
+
+go to java730 > right click > new > other > type jfr (will showup jframe) > choose it
+click next > Package name (org.javaiw.swing) > Name (MyJFrame) > Finish
+
+
+AWT contains almost all controls required to create a GUI. AWT uses components from os system. AWT does not have its own components. 
+If we say insert a button, AWT gets button from our os. If we are working on windows 8, we get button according to windows 8. 
+So look and feel would not be uniform throughtout in all executions, it will depend on platform
+
+What is swing?
+But swing components are java created.
+Inside Paletter in MyJFrame most of names start with J like JPanel in containers.
+Everything is with J, it means each of these components is defined and designed by Java
+We can customize look and view 
+
+
+
+
+Commands to build MyFrame.java:
+------------------------------
+
+go to java730 > right click > new > other > type jfr (will showup jframe) > choose it
+click next > Package name (org.javaiw.swing) > Name (MyJFrame) > Finish
+
+Right click > Set Layout > BorderLayout
+In Palette > JTabbedPane click it > drop it in center
+
+In Palette > Containers > JPanel click it > put in tabbedPane
+put another panel, do it total of 4 times
+
+In Structure > go to panel click it > go to Palette > Components > JButton > drop it on tab > Write on it "OK"
+In Structure > go to panel_1 click it > go to Palette > Components > JTextField > drop it on tab
+In Structure > go to panel_2 click it > go to Palette > Components > JCombobox > drop it on tab 
+	To add items to combobox:
+	Go to Properties > click on model > Inside ComboBox model items, type India, China and other countries > Click OK
+In Structure > go to panel_3 click it > go to Palette > Components > JRadioButton > drop it on tab > Type "Male Candidate
+
+Go to first tab > click it > Go to Properties > Association > Title > change title to "Tab 1"
+do same for all 4 tabs 
+
+Now we want that when we click OK on Tab1, we should move to Tab2
+
+Double click "OK" button. It will take us to ActionPerformed event of Source-MyFramce.java  
+type: tabbedPane.setSelectedIndex(1);
+
+
+
+
+

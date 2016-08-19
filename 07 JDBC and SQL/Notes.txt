@@ -68,6 +68,10 @@ Running SQL commands;
 //user: java2
 //password: j2ee
 
+//user: java4
+//password: j2ee
+
+
 
 //To find all tables - http://onewebsql.com/blog/list-all-tables
 select tablespace_name, table_name from all_tables; //To list all tables accessible to the current user.

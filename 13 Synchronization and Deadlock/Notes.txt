@@ -1,0 +1,21 @@
+Supporting files are:
+Resources.java, SyncMain.java, SyncThread.java
+Resources1.java, SyncMain1.java, SyncThread1.java
+
+
+Synchronization:
+If there is shared resource. As long as first thread is using resource, the next one must
+not be allowed to use. Doing this is called synchronization.
+
+Deadlock:
+Eg: three threads, all are busy. Thread1 says he is busy and needs Thread2.
+Thread2 says he is busy and he needs Thread3.
+Thread3 says he is busy and he needs Thread1.
+Deadlocks occur in case of circular referencing. 
+To avoid deadlocks we have few functions. 
+But always try to avoid circular referencing.
+Deadlocks are possible only in case of synchronization
+
+
+
+
