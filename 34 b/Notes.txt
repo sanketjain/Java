@@ -1,0 +1,21 @@
+
+On August 16:
+Created new User sanketjain
+Installed Eclipse Mars at C:\User sj2659\Eclipse Mars\eclipse
+Workspace is located at C:\Users\sj265\workspace2mars which I uploaded as "Raw data - Exercises of Maven trial Aug 18" on Github
+
+
+On August 19:
+Installed Eclipse Neon at C:\User sj2659\Eclipse Neon
+Workspace is located at C:\User sj2659\workspaceNeon
+
+
+On August 20:
+Installed Glassfish at C:\User sj2659\Glassfish
+Because old Glassfish is installed inside Program Files which can only be modified by admin C:\Program Files\glassfish4.1.1
+
+
+
+
+
+
