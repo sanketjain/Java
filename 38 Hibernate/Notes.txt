@@ -27,13 +27,16 @@ Hibernate consists of xml called configurations xml. We are studying hibernate 4
 
 Connect to database:
 Go to Package Explorer > HIBTry > Right click > Build Path > Configure Build Path > Java build path window will open >
-Choose Libraries tab > Add external jars > Go to C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+Choose Libraries tab > Add external jars > Go to C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib > Choose ojdbc_6g > Apply > OK
 
 Create a xml:
 Go to Package Exploere > HIBTry > src > Right click > New > Other > Window appears, type xml, choose xml file > Next
 File name: hibernate.cfg.xml (we can give any name, but this is default name)> Next >  Next > Finish
+Benefit of default name: Hibernate uses default name. If we give other name and then we have to specify other name everywhere. 
 
 Create a database in Data Source Explorer named java4 identified by j2ee
+
+
 
 
 

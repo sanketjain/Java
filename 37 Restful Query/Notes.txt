@@ -12,4 +12,3 @@ HW Application:
 Connect to employee database. 
 POST and Delete are easy. Only the GET request with different uri structures.
 Create uri in such a way that common man could never understand uri. 
-

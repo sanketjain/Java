@@ -8,7 +8,7 @@ Student.java + ArrayList1.java, LinkedListDemo.java
 2. Collections: 
 Collections heirarchy is in package java.util
 At top of heirarchy we have interface called collection
-Collection is an interface and it is inherited into few other interfaces.
+Collection is an interface and it is inherited by some other interfaces.
 
 After IStack, TStack, TStack1:
 

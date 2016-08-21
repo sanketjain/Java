@@ -1,0 +1,10 @@
+package org.javaiw.model;
+
+public class Product {
+
+	int pid;
+	String pname;
+	String brand;
+	int price;
+
+}

@@ -1,0 +1,17 @@
+package org.javaiw.main;
+
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.Service;
+import org.hibernate.service.spi.SessionFactoryServiceInitiator;
+import org.hibernate.service.spi.SessionFactoryServiceRegistryBuilder;
+
+public class HibMain {
+
+	public static void main(String[] args) {
+		Configuration configuration = new Configuration();
+		configuration.configure();
+		org.hibernate.service.ServiceRegistry serviceRegistry = new SessionFactoryServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry(); 
+				
+	}
+
+}

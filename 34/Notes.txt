@@ -1,3 +1,6 @@
+Supporting files are:
+Project Explorer > ShopService
+
 
 Why not to use SOAP, drawbacks of soap based:
 
