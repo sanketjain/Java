@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;rest123/src/main/java/org.javaiw.rest123.model&apos;&#x0D;&#x0A;- Original project: &apos;ShopService&apos;&#x0D;&#x0A;- Destination element: &apos;rest123/src/main/java/org.javaiw.rest123.model&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     org.javaiw.model.Product.java&#x0D;&#x0A;     org.javaiw.model.ProductData.java" description="Copy compilation units" destination="=rest123/src\/main\/java&lt;org.javaiw.rest123.model" element1="/src&lt;org.javaiw.model{Product.java" element2="/src&lt;org.javaiw.model{ProductData.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1471712452759" units="2" version="1.0"/>
+</session>

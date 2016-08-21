@@ -1,0 +1,7 @@
+package org.javaiw.restfull.model;
+
+public class FilterBean {
+	
+
+
+}

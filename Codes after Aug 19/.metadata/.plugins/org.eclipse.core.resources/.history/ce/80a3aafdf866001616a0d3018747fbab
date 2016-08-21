@@ -1,0 +1,42 @@
+package org.javaiw.rest123.model;
+
+import java.util.*;
+
+
+public class ProductData {
+	
+	static Map<Integer,Product> plist;
+	
+	static{
+		plist = new TreeMap<>(); 
+		plist.put(1, new Product(1, "Nexus7", 30000, "Google"));
+		plist.put(2, new Product(2, "Macbook", 100000, "Apple"));
+		plist.put(3, new Product(3, "Alienware", 70000, "Dell"));
+		plist.put(4, new Product(4, "Surface", 25000, "Microsoft"));
+		plist.put(5, new Product(5, "Speaker", 15000, "Bose"));
+		plist.put(6, new Product(6, "i7", 8000 , "Intel"));
+		plist.put(7, new Product(7, "Kindle", 15000, "Amazon"));
+	}
+	
+	public boolean addProduct(Product p1){ //addProduct takes Product p1 as argument
+		try{
+			p1.setPid(plist.size()+1);
+			plist.put(plist.size()+1, p1); //key is plist.size()+1
+			return true;
+			} catch (Exception e){ return false; }
+	}
+	
+	public boolean deleteProduct(int pid){
+		try{plist.remove(pid); //remove can throw and exception. If it is not found it will print sth. 
+		return true;
+		} catch(Exception e){
+			e.printStackTrace();
+			return false;
+			}
+	}
+	
+	public ArrayList<Product> getProducts(){
+		return new ArrayList<>(plist.values());
+	}
+}
+

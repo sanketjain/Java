@@ -13,6 +13,46 @@ We need jersey restful api
 Jersey is a maven application. 
 Maven is java project management architecture. It makes easy to manage java project and its dependencies. 
 
+Go to Eclipse > File > New > Maven Project > Next > have to take jersey archetype. First time there is no jersey archetype so:
+Add Archetype > Group Id:org.glassfish.jersey.archetypes, Artifact Id: jersey-quickstart-webapp, Version: 2.20, Url - leave it empty > OK > Restart eclipse
+Again Go to Eclipse > File > New > Maven Project > Next > Choose jersey-quickstart-webapp > Next >
+Group Id: org.javaiw; Archetype id: rest123 > Finish
+We will get rest123 created in Project Explorer. It has error because by default it did not get access to http server on my system. So connect it:
+right click rest123 > Properties > Server: Choose Tomcat > Apply. Again > Properties > Targeted Runtimes: Tomcat 8.0 > Finish. The error gone.
+
+Jersey is a servlet project. It has some servlets in it. Go to Project Explorer rest123\src\main\webapp\WEB-INF > web.xml
+This xml contains a servlet named Jersey Web Application 
+
+
+Pom.xml is mastermind of Maven application. It signifies all the dependencies. 
+Go to https://mvnrepository.com/artifact/org.hibernate
+This maven repository contains huge collection of maven projects and hibernate is part of it.
+Choose hibernate core > We will take 4.3.10 (because 5.sth are beta) > Maven box contains the dependency( groupid and artefact id), copy it
+Paste in pom.xml under dependency > This hibernate core dependency will add hibernate core as well as all the libraries that hibernate core will need > 
+Save it to include to our application. 
+
+
+Run rest123 on server > We get http://localhost:8085/rest123/ > This is output from index.jsp or web.xml > Click Jersey resource > 
+We reach http://localhost:8085/rest123/javaiw/myresource > localhost:8085 is my apache server, rest123 is application, javaiw is url pattern specified in web.xml
+myresource is restful service. 
+
+Create new class in rest123\src\main\java\org\javaiw\rest123\service > Name: MyService
+Create new class in rest123\src\main\java\org\javaiw\rest123\service > Name: Student.java > Create getters and setters and sth more. 
+
+What is restful client?
+In Chrome if we want to work with GET, PUT and other requests, we need a restful client. 
+Go to Chrome webstore and get restful client > Postman > Add
+Go to Chrome application launcher (only available as extension to Chrome). 
+Postman is easy and commonly used restful client
+
+
+
+
+
+
+
+
+
 
 
 

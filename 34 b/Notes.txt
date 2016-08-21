@@ -8,12 +8,14 @@ Workspace is located at C:\Users\sj265\workspace2mars which I uploaded as "Raw d
 On August 19:
 Installed Eclipse Neon at C:\User sj2659\Eclipse Neon
 Workspace is located at C:\User sj2659\workspaceNeon
-
+Created new Tomcat server in Eclipse. Location is C:\Program Files\Apache Software Foundation\Tomcat 8.0
 
 On August 20:
 Installed Glassfish at C:\User sj2659\Glassfish
 Because old Glassfish is installed inside Program Files which can only be modified by admin C:\Program Files\glassfish4.1.1
+Created new Glassfish server in Eclipse. Username and password are default. Username: admin. Password - nothing specific leave it blank
 
+Important: Tomcat is located in Program Files while GlassFish is located in User sj2659 for new Eclipse Neon :)
 
 
 
