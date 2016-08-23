@@ -1,0 +1,32 @@
+package org.javaiw.main;
+
+import java.sql.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistryBuilder;
+import org.javaiw.model.Product;
+
+public class HibMain {
+
+	public static void main(String[] args) {
+		Configuration configuration = new Configuration();
+		configuration.configure();
+		org.hibernate.service.ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
+
+		SessionFactory factory = configuration.buildSessionFactory(serviceRegistry);
+		Session session = factory.openSession();
+		session.beginTransaction();
+		
+	//	Product p1 = new Product(2, "LaptopAlienware", "Dell", 83459);
+	//	Product p1 = (Product)session.get(org.javaiw.model.Product.class, 1);	
+		Product p1 = new Product(3, "Headphones", "Senheer", 7353);
+		p1.setDop(new Date(System.currentTimeMillis()));
+		session.save(p1);
+	//	p1.setPname("LaptopInspironnew");
+//		session.delete(p1);
+		session.getTransaction().commit();
+		session.close();
+	}
+}

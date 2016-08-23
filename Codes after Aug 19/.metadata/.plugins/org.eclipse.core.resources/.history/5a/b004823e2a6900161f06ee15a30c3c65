@@ -1,0 +1,22 @@
+package org.javaiw.main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistryBuilder;
+
+public class HibMain2 {
+
+	public static void main(String[] args) {
+	
+		Configuration configuration = new Configuration();
+		configuration.configure();
+		org.hibernate.service.ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
+
+		SessionFactory factory = configuration.buildSessionFactory(serviceRegistry);
+		Session session = factory.openSession();
+		session.beginTransaction();
+
+	}
+
+}

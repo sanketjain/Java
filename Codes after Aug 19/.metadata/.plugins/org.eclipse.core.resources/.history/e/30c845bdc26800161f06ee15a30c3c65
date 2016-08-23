@@ -1,0 +1,29 @@
+package org.javaiw.model;
+
+public class Vendor {
+	
+	String vname;
+	
+	String email;
+
+	public String getVname() {
+		return vname;
+	}
+	public void setVname(String vname) {
+		this.vname = vname;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Vendor(String vname, String email) {
+		this.vname = vname;
+		this.email = email;
+	}
+	public Vendor() {
+	}
+
+	
+}

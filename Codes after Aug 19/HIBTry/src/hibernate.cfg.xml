@@ -9,7 +9,7 @@
 <session-factory>
 	<!-- Database connection settings -->
 	<property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
-	<property name="connection.url">jdbc:oracle:thin:@localhost:xe</property>
+	<property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
 	<property name="connection.username">java5</property>
 	<property name="connection.password">j2ee</property>
 	
@@ -18,14 +18,15 @@
 	<property name="connection.pool_size">1</property>
 
 	<!-- SQL dialect -->
-	<property name="dialect">org.hibernate.dialect.Oracle10gDialect.class</property>
+	<property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
 	
 	<!-- Echo all executed SQL to stdout -->
 	<property name="show_sql">true</property>
 	
 	<!-- Drop and re-create the database schema on startup -->
-	<property name="hbm2ddl.auto">create</property>
+	<property name="hbm2ddl.auto">update</property>
 	<mapping class="org.javaiw.model.Product"/>
+	<mapping class="org.javaiw.model.Vendor"/>
 
 </session-factory>
 	
