@@ -1,8 +1,8 @@
 
-Installed Spring using:
+Install Spring ide from markerplace:
 Go to Eclipse > Help > Eclipse Marketplace > Type: Spring IDE > Click Install on first Spring link
 
-Also added spring frameworks:
+Also add spring ide frameworks:
 Go to spring at http://repo.spring.io/release/org/springframework/spring/4.1.6.RELEASE/
 Download in downloads folder. Unzip, extract to C:\User sj2659\Spring
 
@@ -18,5 +18,16 @@ spring orm https://mvnrepository.com/artifact/org.springframework/spring-orm/4.3
 spring jdbc https://mvnrepository.com/artifact/org.springframework/spring-jdbc/4.3.2.RELEASE
 spring aop https://mvnrepository.com/artifact/org.springframework/spring-aop/4.3.2.RELEASE
 aop alliance https://mvnrepository.com/artifact/aopalliance/aopalliance/1.0
+
+Create a Spring Project without Maven:
+Go to Eclipse > File > New  > Java Project > Name:Spring01 > Next > Add Library (watch video). I added following libraries:
+Dowloaded and exctracted ApacheCommons loggin to C:\User sj2659\Spring from
+https://commons.apache.org/proper/commons-logging/
+Dowloaded and exctracted Springssource aopalliance to C:\User sj2659\Spring from
+http://ebr.springsource.com/repository/app/bundle/version/detail?name=com.springsource.org.aopalliance&version=1.0.0
+Remaining same as video at 40 min. 
+
+
+
 
 
