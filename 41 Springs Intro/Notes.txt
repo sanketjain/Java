@@ -6,6 +6,17 @@ Also added spring frameworks:
 Go to spring at http://repo.spring.io/release/org/springframework/spring/4.1.6.RELEASE/
 Download in downloads folder. Unzip, extract to C:\User sj2659\Spring
 
-
+On Aug 24
+Create a Maven Project in Java EE perspective:
+Eclipse > New > Maven Project > Next > take jerser-sth-quickstart > Click Next > Artifact id: org.javaiw, Name: Maven12 > Finish
+Go to pom.xml > Add dependency from https://mvnrepository.com/artifact/org.springframework/spring-core/4.3.2.RELEASE
+Also add .... from ...
+spring beans https://mvnrepository.com/artifact/org.springframework/spring-beans/4.3.2.RELEASE
+spring context https://mvnrepository.com/artifact/org.springframework/spring-context/4.3.2.RELEASE
+spring dao https://mvnrepository.com/artifact/org.springframework/spring-dao/2.0.8
+spring orm https://mvnrepository.com/artifact/org.springframework/spring-orm/4.3.2.RELEASE
+spring jdbc https://mvnrepository.com/artifact/org.springframework/spring-jdbc/4.3.2.RELEASE
+spring aop https://mvnrepository.com/artifact/org.springframework/spring-aop/4.3.2.RELEASE
+aop alliance https://mvnrepository.com/artifact/aopalliance/aopalliance/1.0
 
 

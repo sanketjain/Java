@@ -743,3 +743,124 @@
 2016-08-23 11:18:47,163 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-08-23 11:18:47,164 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-08-23 11:18:47,164 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\restfull\src\test\resources
+2016-08-24 08:47:30,188 [Worker-61] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\pom.xml
+2016-08-24 08:47:42,249 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javaiw:Maven12:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\pom.xml.
+2016-08-24 08:47:47,531 [Worker-61] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Maven12/src/main/java
+2016-08-24 08:47:47,547 [Worker-61] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Maven12/src/test/java
+2016-08-24 08:47:48,158 [Worker-61] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 17 sec
+2016-08-24 08:47:53,038 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 08:47:53,040 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 08:47:53,113 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 08:47:53,158 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 08:52:21,875 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javaiw:Maven12:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\pom.xml.
+2016-08-24 08:52:23,266 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.pom
+2016-08-24 08:52:23,498 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.pom
+2016-08-24 08:52:23,587 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-08-24 08:52:24,176 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-08-24 08:52:24,285 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2016-08-24 08:52:25,063 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2016-08-24 08:52:25,156 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar
+2016-08-24 08:52:26,667 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar
+2016-08-24 08:52:26,694 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-08-24 08:52:26,837 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-08-24 08:52:28,505 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 08:52:28,506 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 08:52:28,517 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 08:52:28,560 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 08:52:30,856 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 08:52:30,856 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 08:52:30,858 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 08:52:30,858 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 10:10:08,812 [Worker-90] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven13\pom.xml
+2016-08-24 10:10:08,966 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javaiw:Maven13:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven13\pom.xml.
+2016-08-24 10:10:09,240 [Worker-90] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Maven13/src/main/java
+2016-08-24 10:10:09,248 [Worker-90] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Maven13/src/test/java
+2016-08-24 10:10:09,352 [Worker-90] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-08-24 10:10:09,846 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:10:09,846 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven13\src\main\resources
+2016-08-24 10:10:09,862 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:10:09,925 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven13\src\test\resources
+2016-08-24 10:19:31,000 [Worker-101] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javaiw:Maven12:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\pom.xml.
+2016-08-24 10:19:31,700 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.pom
+2016-08-24 10:19:31,769 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.pom
+2016-08-24 10:19:31,816 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.pom
+2016-08-24 10:19:31,847 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.pom
+2016-08-24 10:19:31,885 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.pom
+2016-08-24 10:19:31,932 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.pom
+2016-08-24 10:19:31,969 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.pom
+2016-08-24 10:19:32,016 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.pom
+2016-08-24 10:19:32,069 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-dao/2.0.8/spring-dao-2.0.8.pom
+2016-08-24 10:19:32,147 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-dao/2.0.8/spring-dao-2.0.8.pom
+2016-08-24 10:19:32,185 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2016-08-24 10:19:32,228 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2016-08-24 10:19:32,267 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+2016-08-24 10:19:32,301 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+2016-08-24 10:19:32,347 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
+2016-08-24 10:19:32,417 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
+2016-08-24 10:19:32,470 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+2016-08-24 10:19:32,501 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+2016-08-24 10:19:32,532 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
+2016-08-24 10:19:32,548 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
+2016-08-24 10:19:32,617 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/2.0.8/spring-beans-2.0.8.pom
+2016-08-24 10:19:32,633 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/2.0.8/spring-beans-2.0.8.pom
+2016-08-24 10:19:32,669 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/2.0.8/spring-core-2.0.8.pom
+2016-08-24 10:19:32,701 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/2.0.8/spring-core-2.0.8.pom
+2016-08-24 10:19:32,748 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/2.0.8/spring-context-2.0.8.pom
+2016-08-24 10:19:32,786 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/2.0.8/spring-context-2.0.8.pom
+2016-08-24 10:19:32,817 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.pom
+2016-08-24 10:19:32,849 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.pom
+2016-08-24 10:19:32,919 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.pom
+2016-08-24 10:19:32,950 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.pom
+2016-08-24 10:19:32,986 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE.pom
+2016-08-24 10:19:33,002 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE.pom
+2016-08-24 10:19:33,049 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,222 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,253 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,453 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,474 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,571 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,575 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-dao/2.0.8/spring-dao-2.0.8.jar
+2016-08-24 10:19:33,622 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-dao/2.0.8/spring-dao-2.0.8.jar
+2016-08-24 10:19:33,638 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,938 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.jar
+2016-08-24 10:19:33,954 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE.jar
+2016-08-24 10:19:34,038 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE.jar
+2016-08-24 10:19:34,054 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar
+2016-08-24 10:19:34,154 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar
+2016-08-24 10:19:34,176 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar
+2016-08-24 10:19:34,255 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar
+2016-08-24 10:19:34,275 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2016-08-24 10:19:34,323 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2016-08-24 10:19:36,617 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:19:36,617 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 10:19:36,617 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:19:36,617 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 10:19:38,178 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:19:38,178 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 10:19:38,178 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:19:38,178 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 10:22:53,326 [Worker-105] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javaiw:Maven12:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\pom.xml.
+2016-08-24 10:22:53,442 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:22:53,442 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 10:22:53,457 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:22:53,461 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 10:34:03,882 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:03,886 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\main\resources
+2016-08-24 10:34:03,889 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:03,889 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\Maven12\src\test\resources
+2016-08-24 10:34:05,653 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:05,659 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-24 10:34:05,661 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:05,662 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\rest01\src\test\resources
+2016-08-24 10:34:07,479 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:07,481 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-24 10:34:07,482 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:07,482 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Raw data - Examples of Maven trial Aug 18\rest1\src\test\resources
+2016-08-24 10:34:08,244 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:08,244 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-24 10:34:08,246 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:08,246 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\rest123\src\test\resources
+2016-08-24 10:34:08,468 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:08,469 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-24 10:34:08,470 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-24 10:34:08,471 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\restfull\src\test\resources
