@@ -1,0 +1,8 @@
+package org.javaiw.model;
+
+public class Vendor {
+	
+	String vemail, vname;
+	
+
+}
