@@ -1,0 +1,11 @@
+
+Installed Spring using:
+Go to Eclipse > Help > Eclipse Marketplace > Type: Spring IDE > Click Install on first Spring link
+
+Also added spring frameworks:
+Go to spring at http://repo.spring.io/release/org/springframework/spring/4.1.6.RELEASE/
+Download in downloads folder. Unzip, extract to C:\User sj2659\Spring
+
+
+
+
