@@ -11,15 +11,15 @@ public class Main1 {
 	public static void main(String[] args) {
 	//	BeanFactory context = new ClassPathXmlApplicationContext("spring.xml");
 	//	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-		context.registerShutdownHook();
-
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+	//	AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+//		context.registerShutdownHook();
 		Product p1 = (Product)context.getBean("product1");
 //		Product p1 = (Product)context.getBean("product");
 		p1.setPname("AAAA");
-
 		System.out.println(p1);
-	//	Product p2 = (Product)context.getBean("product2");
+
+		//	Product p2 = (Product)context.getBean("product2");
 	//	System.out.println(p2);
 	}
 } 

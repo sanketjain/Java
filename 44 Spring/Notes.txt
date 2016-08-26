@@ -1,0 +1,11 @@
+
+
+Video #44 at 46min:
+Downloaded javax transaction to C:\User sj2659\Spring from http://www.java2s.com/Code/Jar/j/Downloadjavaxtransactionjar.htm
+Downloaded springframeworktransaction to C:\User sj2659\Spring from http://www.java2s.com/Code/Jar/o/Downloadorgspringframeworktransaction305releasejar.htm
+Downloaded springtransaction to C:\User sj2659\Spring from http://www.java2s.com/Code/Jar/s/Downloadspringtransaction311jar.htm
+Downloaded springdao to C:\User sj2659\Spring from http://www.java2s.com/Code/Jar/s/Downloadspringdao206jar.htm
+Downloaded commons-dbcp to C:\User sj2659\Spring\commons-dbcp2-2.1.1 from https://commons.apache.org/proper/commons-dbcp/download_dbcp.cgi
+
+
+

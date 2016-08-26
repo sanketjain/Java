@@ -1,0 +1,12 @@
+package org.javaiw.model;
+
+public class Employee {
+	int empno;
+	String ename;
+	String job;
+	int sal;
+	Date doj;
+	
+	
+
+}

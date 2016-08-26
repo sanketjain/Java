@@ -93,13 +93,8 @@ public class Product {
 */	
 	}
 
-	public void destroy() throws Exception {
-		System.out.println("Destroy function called");		
-	}
-	
-	public void init() throws Exception {
-		System.out.println("Init function called");		
-	}
+//	public void destroy() throws Exception {		System.out.println("Destroy function called");			}
+//	public void init() throws Exception {		System.out.println("Init function called");			}
 
 	
 

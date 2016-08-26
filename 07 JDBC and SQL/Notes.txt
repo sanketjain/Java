@@ -71,6 +71,10 @@ Running SQL commands;
 //user: java4
 //password: j2ee
 
+//user: java5
+//password: j2ee
+
+
 
 
 //To find all tables - http://onewebsql.com/blog/list-all-tables
