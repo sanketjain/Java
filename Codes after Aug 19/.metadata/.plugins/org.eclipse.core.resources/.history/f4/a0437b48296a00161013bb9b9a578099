@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+<!-- <bean id="product1" class="org.javaiw.model.Product"> -->
+<bean id="product1" class="org.javaiw.model.Product">
+
+
+<property name="pid" value="1"/>
+<property name="pname" value="Laptop"></property>
+<property name="brand" value="HP"></property>
+<property name="price" value="72353"></property>
+
+<!-- 
+	<property name="vendors">
+ 	<list>
+	<ref bean="vendor1"/>
+	<ref bean="vendor2"/>
+	</list> 
+</property>
+-->
+
+<!--  <property name="vendor" ref="vendor1"></property>
+  <property name="vendor">
+
+	<bean class="org.javaiw.model.Vendor">
+		<property name="vemail" value="sanket.jain@columbia.edu"></property>
+		<property name="vname" value="Sanket Jain"></property>
+	</bean>	
+
+</property>
+-->
+</bean>
+
+<bean id="product2" class="org.javaiw.model.Product">
+<constructor-arg index="0" value="2"></constructor-arg>
+<constructor-arg index="1" value="WL Keyboard"></constructor-arg>
+<constructor-arg index="2" value="Microsoft"></constructor-arg>
+<constructor-arg index="3" value="72453"></constructor-arg>
+</bean>
+
+<bean id="vendor1" class="org.javaiw.model.Vendor">
+<property name="vemail" value="sanket.jain@columbia.edu"></property>
+<property name="vname" value="Sanket Jain"></property>
+</bean>
+
+<!--  <bean id="vendor2" class="org.javaiw.model.Vendor"> -->
+<bean id="vendor" class="org.javaiw.model.Vendor">
+<property name="vemail" value="sj2659@columbia.edu"></property>
+<property name="vname" value="Sanket"></property>
+</bean>
+
+</beans>

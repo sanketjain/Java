@@ -32,7 +32,6 @@ public class Vendor {
 		// TODO Auto-generated method stub
 		return vname + " = " + vemail;
 	}
-	
-	
 
 }
+
