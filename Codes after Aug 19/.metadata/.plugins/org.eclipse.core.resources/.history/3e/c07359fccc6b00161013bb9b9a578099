@@ -13,7 +13,7 @@ public class Main1 {
 	//	BeanFactory context = new ClassPathXmlApplicationContext("spring.xml");
 	//	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-		JdbcDaoImpl jdbcDaoImpl = (JdbcDaoImpl)context.getBean("jdbcDaoImpl");
+		JdbcDaoImpl jdbcDaoImpl = (JdbcDaoImpl)context.("jdbcDaoImpl");
 		jdbcDaoImpl.show();
 	//	AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 //		context.registerShutdownHook();

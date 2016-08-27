@@ -4195,3 +4195,6 @@ org.xml.sax.SAXParseException; lineNumber: 57; columnNumber: 7; The end-tag for 
 
 !ENTRY org.eclipse.jface.text 2 0 2016-08-26 15:24:17.816
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-08-26 16:26:01.937
+!MESSAGE <anonymous #1> [in show() [in JdbcDaoImpl [in [Working copy] JdbcDaoImpl.java [in org.javaiw.model [in src [in Spring01]]]]]] does not exist

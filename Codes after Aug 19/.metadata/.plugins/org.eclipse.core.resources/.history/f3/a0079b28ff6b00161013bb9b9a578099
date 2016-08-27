@@ -13,7 +13,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class JdbcDaoImpl {
-	private JdbcTemplate template = null;	
+	private JdbcTemplate template = null;
+	
 	@Autowired
 	public void setDataSource(DataSource dataSource){
 		template = new JdbcTemplate(dataSource);

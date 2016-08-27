@@ -69,6 +69,7 @@
 </bean>
 -->
 
+<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"></bean>
 <context:component-scan base-package="org.javaiw.model"></context:component-scan>
 
 </beans>
