@@ -1,3 +1,8 @@
+Object Oriented Programming
+
+Class: Things having similar characteristics are grouped in one class. 
+Object of class.
+
 Access Specifiers:
 
 Private: Can only be accessed inside the class it is declared.

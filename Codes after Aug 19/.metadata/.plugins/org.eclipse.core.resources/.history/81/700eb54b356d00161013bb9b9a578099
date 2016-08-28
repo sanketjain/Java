@@ -1,0 +1,14 @@
+package org.javaiw.typecasting;
+
+public class TCClass {
+
+	public static void main(String[] args) {
+		
+		String str="0";
+		int i = str;
+		System.out.println(i);
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package org.javaiw.typecasting;
+
+public class TCClass {
+
+	public static void main(String[] args) {
+		
+		String str="1";
+		// int i = str; //This gives error that cannot convert string into integer type
+		int j = Integer.parseInt(str);  //parseInt function of Integer class is static.
+		System.out.println(j);
+		
+		
+	}
+}
