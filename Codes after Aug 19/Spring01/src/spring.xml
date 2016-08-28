@@ -46,8 +46,8 @@
 <property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"></property>
 <property name="username" value="java5"></property>
 <property name="password" value="j2ee"></property>
-<property name="initialSize" value="4"></property>
-<property name="minIdle" value="2"></property>
+<property name="initialSize" value="2"></property>
+<property name="minIdle" value="1"></property>
 
 </bean>
 
