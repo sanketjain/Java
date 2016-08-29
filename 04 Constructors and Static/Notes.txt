@@ -1,4 +1,3 @@
-
 Static: If a method is defined static, we do not need to use individual objects.
 We can directly call classname.methodname.
 Eg: System.out.println. out method of String class is static. 
@@ -14,7 +13,8 @@ Static members do not depend on object being created. They are there by default.
 have static block.
 
 Static block: Static block is a block of lines of code in a class which gets automatically called whenever this class is
-loaded into memory.
+loaded into memory. 
+Static function or a static block can only call other static members. 
 Static block gets called only once, there is no way to call it second time. 
 
 Singleton design pattern: A class for which we cannot create more than one object. 
@@ -25,6 +25,7 @@ Outer class cannot use resources of Inner class.
 
 Inheritance: In java a child can have only one parent. A parent can have multiple child but
 a child can have only one parent. We do inheritance for extending the features, for specification,
+
 
 
 
