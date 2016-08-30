@@ -23,12 +23,15 @@
 </property>
 -->
 
+<property name="vendor" ref="vendor1"></property> 
+  <property name="vendor">
 
 	<bean class="org.javaiw.model.Vendor">
 		<property name="vemail" value="sanket.jain@columbia.edu"></property>
 		<property name="vname" value="Sanket Jain"></property>
 	</bean>	
 
+</property>
 
 
 <bean id="product2" class="org.javaiw.model.Product">
