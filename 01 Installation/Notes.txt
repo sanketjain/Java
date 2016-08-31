@@ -27,3 +27,9 @@ Java supports two types of data:
 
 Typecasting: Converting one type to another. 
 
+Difference between next() and nextInt() in case of Scanner object:
+http://stackoverflow.com/questions/22458575/whats-the-difference-between-next-and-nextline-methods-from-scanner-class
+
+
+
+
