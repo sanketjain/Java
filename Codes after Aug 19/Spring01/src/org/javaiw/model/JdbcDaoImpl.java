@@ -20,7 +20,8 @@ public class JdbcDaoImpl {
 	}
 
 	public void show(){		
-		List<Employee> list = template.query("select empno,ename,job,salary,doj from employee", new RowMapper<Employee>() {
+		List<Employee> list = template.query("select salary,"
+				+ "doj from employee", new RowMapper<Employee>() {
 			@Override
 			public Employee mapRow(ResultSet rs, int arg1) throws SQLException {
 				Employee e1 = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getDate(5));
