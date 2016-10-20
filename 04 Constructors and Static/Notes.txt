@@ -16,6 +16,7 @@ Static block: Static block is a block of lines of code in a class which gets aut
 loaded into memory. 
 Static function or a static block can only call other static members. 
 Static block gets called only once, there is no way to call it second time. 
+Once we create a variable inside a static block, it is created and could not be changed outside the block. 
 
 Singleton design pattern: A class for which we cannot create more than one object. 
 
