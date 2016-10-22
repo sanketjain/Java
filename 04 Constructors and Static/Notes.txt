@@ -22,7 +22,9 @@ Singleton design pattern: A class for which we cannot create more than one objec
 
 Inner class: Class inside a class
 Outer class cannot use resources of Inner class. 
-
+I created object of inner class in outer class, so that I can use inner class. 
+Inner class is only accessible in Outer class. 
+So after running Outer.java we get two class files namely "Outer.class" and "Outer$Inner.class"
 
 Inheritance: In java a child can have only one parent. A parent can have multiple child but
 a child can have only one parent. We do inheritance for extending the features, for specification,
