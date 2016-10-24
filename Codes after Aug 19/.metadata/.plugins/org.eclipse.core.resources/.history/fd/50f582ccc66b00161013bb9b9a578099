@@ -1,8 +1,0 @@
-package org.javaiw.model;
-
-public class JdbcDaoImpl {
-	private JdbcTemplate template = null;
-	
-	
-
-}
