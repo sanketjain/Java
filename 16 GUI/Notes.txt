@@ -1,3 +1,6 @@
+Relevant code is in:
+java730 > src > org.javaiw.GUI > MyFrames.java and MyFrames1.java
+
 GUI:
 Supporting files are: MyFrame.java, MyFrames.java, MyCalculator.java
 
@@ -5,7 +8,7 @@ Import package AWT: Abstract Window Toolkit
 
 At top of hierarchy we have a class called component
 
-Component is inherited by: Lable, Textfield, Text Area, Choice, Button, Menu, Scrollbar, MenuItem…
+Component is inherited by: Lable, Textfield, Text Area, Choice, Button, Menu, Scrollbar, MenuItemâ€¦
 Container class inherits component. It is special type of Component, which can further add component. 
 
 Container class is inherited by Panel, Window and Canvas
