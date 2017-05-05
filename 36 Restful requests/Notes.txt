@@ -1,6 +1,0 @@
-
-
-Supporting files are:
-Package Explorer > restfull (all files)
-
-And need Postman Chrome extension 
