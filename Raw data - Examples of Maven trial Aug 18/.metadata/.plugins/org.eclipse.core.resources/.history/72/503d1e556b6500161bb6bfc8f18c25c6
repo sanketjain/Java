@@ -1,8 +1,0 @@
-package org.javaiw.rest1.model;
-
-public class ProductData {
-	
-	static Map<Integer, Product> plist;
-	
-
-}
