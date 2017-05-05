@@ -1,0 +1,21 @@
+Jan 28. Java with Pradeep
+--------------------------
+PostGreSql: x86-64 for windows
+Installed on Jan 28 at C:\User sj2659
+password: aita
+default port: 5432 or sth
+
+Uninstalled everything. 
+Then installed again with password: postgres
+Details page - http://localhost:8050/#/details-pg/pg96
+
+Google search: alter column auto increment postgresql
+-------------------------------------
+
+Maven is a built tool. We need to tell the dependencies
+Postgres provides the bridge.
+jar file = java archive
+Maven repository - https://mvnrepository.com/ 
+Configuration of maven - apache maven download - 
+
+

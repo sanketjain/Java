@@ -1,0 +1,16 @@
+package org.javaiw.rest1.model;
+
+import java.util.*;
+
+public class ProductData {
+	
+	static Map<Integer, Product> plist;
+	
+	static{
+		plist = new TreeMap<Integer, Product>();
+		plist.put(1 , new Product(1, "MS Mouse wireless", 623));
+		plist.put(2 , new Product(2, "HP Keyboard", 662));
+		plist.put(3 , new Product(3, "JBL Speaker", 8346));
+	}
+
+}

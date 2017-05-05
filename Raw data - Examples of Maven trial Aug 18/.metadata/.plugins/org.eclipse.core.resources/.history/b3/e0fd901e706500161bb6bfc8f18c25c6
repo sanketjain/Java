@@ -1,0 +1,29 @@
+package org.javaiw.rest2.service;
+
+import java.util.ArrayList;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.javaiw.rest1.model.ProductData;
+
+@Path("Productservice")
+public class MyService {
+
+	/*@GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getIt() {
+        return "This is the response from my first restful web service";
+    }*/
+	
+ProductData data = new ProductData();
+	
+	@GET
+	@Path("/products")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<Product> getProducts(){
+		return new ArrayList<>(data.getAllProducts().values());
+	}
+}

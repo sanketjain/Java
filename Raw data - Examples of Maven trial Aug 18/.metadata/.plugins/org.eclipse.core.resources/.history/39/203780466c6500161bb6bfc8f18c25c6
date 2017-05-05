@@ -1,0 +1,13 @@
+package org.javaiw.rest1.model;
+
+import java.util.Map;
+
+public class ProductData {
+	
+	static Map<Integer, Product> plist;
+	
+	static{
+		plist = new TreeMap<Integer, Product>()
+	}
+
+}

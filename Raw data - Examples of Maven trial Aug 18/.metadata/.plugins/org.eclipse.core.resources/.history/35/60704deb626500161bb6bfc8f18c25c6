@@ -1,0 +1,31 @@
+package org.javaiw.rest2.service;
+
+import java.util.ArrayList;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("myservice")
+public class MyService {
+
+	@GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getIt() {
+        return "This is the response from my first restful web service";
+    }
+	
+	@PUT
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<Student> getStudents(){
+		ArrayList<Student> list1 = new ArrayList<>();
+		list1.add(new Student("Sanket", 623));
+		list1.add(new Student("Sanket", 345));
+		list1.add(new Student("Sanket", 234));
+		list1.add(new Student("Sanket", 632));
+		return list1;
+
+	}
+}
