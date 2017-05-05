@@ -1,0 +1,5 @@
+Links to used with GUI course of Udemy:
+
+http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.wb.doc.user%2Fhtml%2Findex.html
+https://docs.oracle.com/javase/tutorial/uiswing/components/menu.html
+https://docs.oracle.com/javase/8/docs/api/javax/swing/JComboBox.html

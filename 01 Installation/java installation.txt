@@ -1,0 +1,12 @@
+Installed Chrome
+
+Installed Java 1.8.9_01
+
+Installed JDK
+Changed environment variables to tell terminal where is java
+
+
+What is JDK, JRE:
+http://docs.oracle.com/javase/8/docs/
+
+

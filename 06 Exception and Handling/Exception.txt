@@ -1,0 +1,66 @@
+try{
+	int x, y;
+	x=10;
+	y=0;
+	z = x/y;
+} catch(Airthmetic Exception e) {
+	System.out.println(e); z=0;
+	e.printStackTrace(); //prints the current exception. Helpful in case of many exceptions. 
+} catch (ArrayIndexOutofBoundException e) {
+	System.out.println("Sorry"); //we can use multiple catch for multiple exception. 
+} finally {
+...
+...
+} //after handling first exception, we move to finally (without going to second exception). 
+//after executing finally we move on to next part. Finally is always executed irrespective of exception.
+
+
+-------------------------
+//throws: A person smokes. Has kept a tag at neck which says smokes.
+//I invite him to party, he starts smoking. I cannot stop him. Because he already said that he smokes.
+
+class Main{
+
+void show() throws ArrayIndexOutOfBoundsException{
+	int x, y;
+	x=10;
+	y=.....;
+	Student s1 = new Student(); s1.name="vishal";
+	
+	int a[] = new int[10]; 
+	a[x] = 100; //this should not work and should throw exception but it wont. a[9] is max value. 
+//It does not throw excpetion because we have used keyword "throws".
+
+}
+}
+
+
+----------------------------
+//If we have multiple Exceptions and all of them have same solution, it is preferable to 
+//catch all of them in a single catch. It is called catch multiple exceptions. 
+
+try{
+	Class.forName("Kussh");
+	throw new NullPointerException();
+	int x = a / b;
+} catch (ClassNotFoundException | AirthmeticException | NullPointerException e) {
+	System.out.println(e);
+} catch (IOException e ){
+	adfadfadadsfa;
+}
+
+---------------------
+//If we use entire Exception class, then we don't need to write individual exception. 
+//But it is a bad practice. Whatever problem, we have only one solution, which is bad.
+
+try{
+	Class.forName("Kussh");
+	throw new NullPointerException(); //throw means throw this Exception. I am myself causing the exception.
+	int x = a / b;
+} catch (Exception e) {
+	System.out.println(e);
+} 
+
+
+
+ 

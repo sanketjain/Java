@@ -1,0 +1,22 @@
+Supporting files are in Eclipse > Package Explorer > java730 > src > java730
+Jdbc6day2
+Jdbc7
+Jdbc1 - taught rs.next/afterLast() and other commands. See video 2016-05-24 at 25min. 
+Jdbc5HWComplete
+Jdbc5HW 
+
+Metadata:
+Data like how many tables we have in database? Information about data is called metadata. 
+Data above data :)
+
+
+Two types of Metadata: 
+
+1. DatabaseMetadata: After creating connection, I say Database Metadata=con.getMetaData. DatabaseMetadata object
+lets me all information about database I want. 
+
+Important: resultset is copy of original data in database. Any changes in result set does not represent 
+change in database. 
+
+2. ResultsetMetadata. 
+

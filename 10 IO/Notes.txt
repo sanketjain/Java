@@ -1,0 +1,23 @@
+Relevant codes are in: Eclipse > Package Explorer > java730 > src > org.javaiw.io 
+IO1.java
+IO2.java
+IO2+whatever.java
+IO2HWb.java is a good HW.
+
+// Sanket.java is just to support IO2.java
+// Sample.txt is to support IO2b.java
+
+I/O 
+
+Two ways of input and output:
+1. Byte by byte
+2. Char by char
+
+First class of JavaIO we are making can:
+File class cannot do output or input. It can only get to you the attributes of a file or folder. 
+
+
+
+
+
+

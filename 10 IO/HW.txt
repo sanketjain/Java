@@ -1,0 +1,21 @@
+Given a
+Database table named Students containing: 
+rollno, sname, course, marks
+
+
+Text file looks like:
+1, sanket, java adv, 787
+2, joy, java basic, 987
+3, zen, j2ee, 345
+
+WAP to read this txt file line by line 
+and split each line by "," 
+and write into data table as a record. 
+
+create a insert query, put 4 question mark and every question mark replace individual
+values.
+to get individual values, string class has a function called split. 
+
+
+
+

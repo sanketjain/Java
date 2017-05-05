@@ -1,0 +1,35 @@
+Installed Chrome
+Installed Java 1.8.9_01
+Installed JDK
+Changed environment variables to tell terminal where is java
+
+What is JDK, JRE:
+http://docs.oracle.com/javase/8/docs/
+
+JVM has subset called JIT Compiler. Image from http://viralpatel.net/blogs/java-virtual-machine-an-inside-story/
+Class files are platform independent. So we get portability to other platform provided that platform supports jre.
+
+Just in time compilation: Only part of code under if or else loop gets executed, not after that. Eg:
+A code says if x is true then exit, JIT will exit it. It will never execute the remaining part of code. 
+This saves time :)
+Architecture independence - 32 bit and 64 bit are different architecture. 
+Active class - Class that contains main function is called active class. 
+
+
+To run java in command line, add C:\Program Files\Java\jdk1.8.0_91\bin to your environment variable PATH.
+
+Go to C:\Program Files\Java\jdk1.8.0_91\jre\lib and open rt.jar. It is most important library of Java. 
+All jar files are libraries of java. Inside jre\lib most of them are installed by default so we need not import them.
+
+Java supports two types of data:
+1. Value type: Data has a value.
+2. Reference type: Addresses.
+
+Typecasting: Converting one type to another. 
+
+Difference between next() and nextInt() in case of Scanner object:
+http://stackoverflow.com/questions/22458575/whats-the-difference-between-next-and-nextline-methods-from-scanner-class
+
+
+
+
