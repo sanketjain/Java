@@ -1,3 +1,0 @@
-#GlassFish 3
-#Sun Aug 21 07:22:23 EDT 2016
-org.eclipse.jst.jee.server\:ShopService=C\:\\User sj2659\\Glassfish\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\ShopService

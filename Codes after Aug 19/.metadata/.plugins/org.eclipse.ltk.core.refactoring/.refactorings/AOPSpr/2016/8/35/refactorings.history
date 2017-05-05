@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;LoggingAspect.java&apos; to &apos;AOPSpr/src/org.javaiw.main&apos;&#x0D;&#x0A;- Original project: &apos;AOPSpr&apos;&#x0D;&#x0A;- Destination element: &apos;AOPSpr/src/org.javaiw.main&apos;&#x0D;&#x0A;- Original element: &apos;org.javaiw.model.LoggingAspect.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;org.javaiw.main" element1="/src&lt;org.javaiw.model{LoggingAspect.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1472234327372" units="1" version="1.0"/>
-</session>
