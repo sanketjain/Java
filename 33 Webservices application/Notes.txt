@@ -1,0 +1,24 @@
+Supporting files are in:
+
+Project Explorer > ShopService > Java Resources > src > org.javaiw.model > Product.java
+Project Explorer > ShopService > Java Resources > src > org.javaiw.model > ProductData.java
+Project Explorer > ShopService > Java Resources > src > org.javaiw.service > EShop.java
+Project Explorer > ShopService > WebContent > NewFile.html
+
+-------------
+
+
+We want to create a webservice and host that, we need an application server. 
+Webservice is host service for programmers. So that programmers can connect to that the service, all functions of service and get results from service. 
+Major companies have webservice. One webservice, different platforms: iOS, Android, Windows, Linux, Mac
+
+Webserver: can only hold servlets and jsp and let my client call them.
+Application server: also supports EAR files. Enterprise Application is EAR. 
+
+localhost:4848 //4848 is administration port number for glassfish
+
+
+HW:
+
+Create same functions with actual database. 
+Create a table product. Add items into that, remove from that, getting list generated from that table. All this. 

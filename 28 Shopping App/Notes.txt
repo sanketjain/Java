@@ -1,0 +1,42 @@
+Supporting files are
+{Web1 > WebContent > login.html}
+{Run Sql commandline > conn > java2, j2ee > select * from susers, select * from products}
+{Web1 > Java Resources > org.javaiw.shop > Login.java }
+{Web1 > Java Resources > org.javaiw.shop > all files}
+{Web1 > Java Resources > org.javaiw.shop.model > Product.java} 
+--------------
+shopping app
+
+Create new DatabaseConnection named java2 inside DataSourceExplorer (imp: also need to restart everytime. Right click, connect, enter password, ping, if ping successful then finish.)
+Go to DatabaseConnection > right click > new > Choose Oracle > Name: java2 > Next > 
+ServiceName: xe > host: localhost > Driver: Oracle Thin Driver 11 > jarList > EditJar > Choose ojdbc6 > Back > DriverName: change to sth > Finish
+
+Go to RunSqlCommand line from Cortona: create a new database named java2 and password j2ee
+
+Go to Project Explorer > Web1 > Java Resources > src > Right click > New > Package > org.javaiw.shop
+Go to Project Explorer > Web1 > Java Resources > src > Right click > New > Package > org.javaiw.shop.model
+Go to Project Explorer > Web1 > New > HTML > login
+Create table named susers in runsqlcommandline inside java2 user 
+Refresh schema by: Go to DatabaseConnection > java2 > xe > schemas > JAVA2 > Rightclick > click Refresh
+
+Create Login.java in org.javaiw.shop
+Create Items.java in org.javaiw.shop
+Create table in runsqlcommandline inside user java2
+Create folder inside WebContent and name it as images. Put images in that. 
+
+Create Buy.java servlet in org.javaiw.shop
+Create Product.java class in org.javaiw.shop.model
+Create new servlet named Checkout.java in org.javaiw.shop
+
+
+HW:
+Imitate at your end
+Maybe: Add option for quantity, while I select a quantity, about button BUY we can put a dropdown for letting user choose quantity of items. 
+Make final list of products more presentable. 
+
+
+
+
+
+
+

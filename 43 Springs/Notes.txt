@@ -1,0 +1,10 @@
+
+
+Aug 25:
+Video 43 at 24th min:
+Download asm and extract to C:\User sj2659\Spring\asm-3.3.1 from http://forge.ow2.org/project/download.php?group_id=23&file_id=16019
+Download cglib to C:\User sj2659\Spring\ from http://www.java2s.com/Code/Jar/c/Downloadcglib22jar.htm
+Download aspectj-weaver to C:\User sj2659\Spring\ from http://www.java2s.com/Code/Jar/a/Downloadaspectjweaverjar.htm
+Download aspectj-1.8.7.jar to C:\User sj2659\Spring\ from https://eclipse.org/aspectj/downloads.php
+Download aspcetjrt.jar to C:\User sj2659\Spring\ from http://www.java2s.com/Code/Jar/a/Downloadaspectjrtjar.htm
+

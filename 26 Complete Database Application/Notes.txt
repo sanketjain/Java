@@ -1,0 +1,9 @@
+
+Supporting files are inside Web1: 
+1. Java Resources > src > org.javaiw.servlets > DataServ1.java //Only table is displayed. No relation to other files
+2. {Java Resources > src > org.javaiw.servlets > (DataServ2.java + FrmServlet1b.java)} +  {WebContent > file1b.html} //Form and table both are displayed. sent back to file1b.html
+3. {Java Resources > src > org.javaiw.servlets > (DataServ3.java + FrmServlet1c.java)} +  {WebContent > file1c.html} //sent back to DataServ3.java.
+4. {Java Resources > src > org.javaiw.servlets > (DataServ4.java + FrmServlet1d.java + Delserv1d.java)} +  {WebContent > file1d.html} //Can delete a row. Not working for first 2 rows. 
+5. {Java Resources > src > org.javaiw.servlets > (DataServ5.java + FrmServlet1e.java + Delserv.java + EditServ.java + EditServ2.java)} +  {WebContent > file1e.html} //Complete :)
+ 
+

@@ -1,0 +1,106 @@
+Supporting files are:
+
+1a. Package Explorer > serviceSoap1 > src > net.webservicex
+1b. Package Explorer > serviceSoap1 > src > org.javaiw.serviceMain > Main.java
+1c. Package Explorer > serviceSoap1 > src > org.javaiw.serviceMain > MyService.java
+
+2a. Package Explorer > MyService123 > Java Resources > src > org.javaiw.service > MyService1.java
+2b. Package Explorer > MyService123 > Java Resources > src > org.javaiw.service > TryService.java
+
+--------------------
+ 
+
+Web Service:
+We interact with fb as website right now. Many websites allow fb login.
+Any service on web is a web service. Huge companies like Amazon, facebook, twitter have web services. 
+Their webservice contains all functionality. In fb webservice there is function create user handle. 
+When we call create user handle, we pass emailid/mobile number and password. 
+
+After login into facebook, facebook checks all info and if it is correct, it returns a handle. 
+That handle is used for all your later conversations. 
+So if I want to see friendlist and I am not working on fb website, I am working on javastring application or servlet application.
+I have email and password and I want to put that on facebook webservice, it will give me a handle.
+
+I will use that handle to get my friend list. I want string application should display all those friends in a dropdown or
+a servlet shows friends html table on screen. How can my or any application talk to fb?
+
+Application is created in java, but suppose we don't know what technology was fb created in. Then how can a java program interact with a webservice ?
+It is possible for my java program to interact with webservice because webservice is created independent of platform
+
+
+
+Soap Based Services: (Simple Object Access Protocol)
+If a webservice was created using .NET and we want to call it using Java. Soap based service needs a request from user. That request is in form of xml.
+XML is acceptable to all technologies.
+Java client sends a soap request(xml) to web service provider. Webservice extracts inputs from that xml and runs that function, generates response, 
+that response is written into xml and returned to user as soap response. User should be capable of sending soap request and understanding soap response.
+ 
+
+Google this: sample web services
+Every soap based service has WSDL. WSDL(Web Service Definiton Language) means SEI
+SEI full form is Service Endpoint Interface. It means how the service is visible to programmer?
+ http://www.service-repository.com/service/overview/-2082028434
+Click on > http://www.webservicex.com/globalweather.asmx?WSDL 
+and we will get WSDL. Every Soap based service has this WSDL
+
+<wsdl:operation name="GetWeather"> It is name of service. 
+
+Go to http://www.webservicex.net/globalweather.asmx?op=GetWeather
+WSDL path is given on http://www.webservicex.net/New/Home/ServiceDetail/56
+
+In java we have utility called ws import. 
+
+Go to command line: 
+md service1 //Make directory
+cd service1
+md src //Make source directory
+wsimport -keep -s src http://www.webservicex.net/globalweather.asmx?WSDL
+// I want to keep my generated things. -s asks for where will you keep your source file? I kept in folder src
+
+Go to Folders > C:\Users\sanket\service1\src\net\webservicex > we have got the entire service downloaded
+These java files have zero logic about how to fetch the weather. They are only capable to creating soap request,
+sending that to your web service, whatever they receive, they give back in form of xml or string. This is called stub
+Stub is copy of server available to client.
+We will use stub to connect to server. That's the role of stub. Stub provides an easy method to connect to server. 
+
+Copy net file from src folder
+
+Go to Eclipse. Switch to java environment.
+File > New > Java Project > Name: serviceSoap1
+Go to Package Explorer > serviceSoap1 > src > Paste
+Go to Package Explorer > serviceSoap1 > src > net.webservicex > open any file. These files don't have logic
+These classes have been generated from that WSDL. These classes don't know where that service exist. 
+
+Till now we consumed webservices. Did not create any service. We only consumed what was available there.
+----------------------------------------------------------------------------------------------------------
+
+
+Now lets create SOAP based service:
+
+Go to Package Explorer > serviceSoap1 > Right click > new > Class > Name:MyService > Finish
+We are creating SOAP based service, it is SOAP so we need GlassFish server for that. Service has to be hosted. 
+While hosting a service we need an application server. 
+
+Tomcat is a webserver, it is not an application server. Tomcat can only post servlets or jsp and make them callable by client.
+It is very efficient in doing that. 
+But it is not an application server so it cannot handle enterprise applications or posting of web services. 
+Glassfish is both a web and an application server, so install glassfish.
+
+
+**Installing glassfish**
+Go to https://glassfish.java.net/download.html
+Downlaod "glassfish-4.1.1.zip" given below "Java EE 7 Full Platform"
+Unzip and then right click, extract to "C:\Program Files\glassfish4.1.1" by creating new folder named glassfish4.1.1
+In Eclipse go to Servers > right click > New > Server > Select the server type: glassfish > Next >
+glassfishlocation: C:/Program Files/glassfish4.1.1/glassfish4/glassfish/domains/domain1 > java location: C:\Program Files\Java\jdk1.8.0_91 > 
+Next > Finish
+
+
+At 45mins:
+Eclipse > File > New > Dynamic Web Project > Project name: MyService123 > Target runtime: GlassFish4 > Next > Next > Finish
+Important: Glassfish supports EAR files. Under EAR membership "Add project to an EAR" option would be active, while with Apache Tomcat it is inactive.
+
+
+
+Restful Web Services - Born 2 years ago
+

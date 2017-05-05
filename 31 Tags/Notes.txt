@@ -1,0 +1,34 @@
+
+Suppporting documents are:
+
+Web1 > WebContent > WEB-INF > tlds > HelloTag.tld
+{Web1 > WebContent > Demo.jsp} + {Web1 > Java Resources > src > org.javaiw.model > HelloTag.java + ByeTag.java} + {Web1 > WebContent > WEB-INF > tlds > HelloTag.tld}
+Web1 > Java Resources > src > org.javaiw.model > ByeTag.java
+
+---------------
+
+We will create tags today
+Go to Web1 > New > Class > package:org.javaiw.model, Name: HelloTag, SuperClass: SimpleTagSupport >Finish
+
+We need to write tld to create our own tag
+Go to Web1 > Other > type xml, take simple xml > Next > put in Web1>WEB-INF, name it: HelloTag.tld > Next > Finish
+
+Why to use tag ?
+We want to minimize java code. So we put logic in tag and do remaining with jsp.
+Logic should be done in doTag method. 
+
+
+HW:
+
+Have a table named accounts
+which has columns like - account no, customer name and balance
+
+<bank:deposit accountno="234532144" amount="1534"/>   this tag should work. This tag will
+send call to your doTag function. doTag function will run a query which increases the amount in this
+particular account by this amount. 
+
+<bank:withdraw accountno="1462576134" amount="365632"/>   this tag should withdraw this amount
+<bank:newacc cname="Sanket" amount="26243"/>   should create a new account
+<bank:close accountno="25625"/>   should run a delete query and delete my account
+<bank:show accoutno="2562343"/>  all details of this account would be displayed on the screen. Name, balance.
+

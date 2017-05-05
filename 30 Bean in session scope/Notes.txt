@@ -1,0 +1,11 @@
+Supporting files are:
+
+1. {Web1 > Java Resources > src > org.javaiw.model > Student.java} 
+2. {Web1 > WebContent > file2.html} + {Web1 > WebContent > Demo2.jsp}
+3. {Web1 > WebContent > file2.html + login.html} + {Web1 > WebContent > Demo3.jsp + Data.jsp}
+4. {Web1 > WebContent > form.jsp} + {Web1 > WebContent > Demo2.jsp}
+5. {Web1 > WebContent > file4.html + file4b.html + form4.jsp + form4b.jsp  + Data4.jsp + Demo4.jsp + FrmServlet1a} + {Web1 > Java Resources > src > org.javaiw.model > Student.java}
+
+-----------------
+Session means: Server is able to identify the client
+

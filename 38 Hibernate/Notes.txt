@@ -1,0 +1,53 @@
+
+
+
+Hibernate:
+It is ORL. Object Relation Mapping.
+Object means object of class. Relation means row in table. So we map and object to row in a table. 
+
+Eg: Student table has certain columns. We will create student class. 
+Every object of student class will contain data of one student. Row of student table also contains data about one student. 
+Objects of classes in Hibernate are saved as rows in database. 
+
+In Eclipse go to Java environment. 
+File > New > Java project > HIBTry > Next > Libraries > Add Library... > 
+Hibernate is framework. To use hibernate we need to have lot of jar files included. Two ways to add library.
+1. Add individual library.
+2. Create user defined library which contains all jar files of hibernate. I did using:
+When I click Add Library..., Add Library box will open. Choose User Library > Next > User Libraries... > New... > name:hibernate > OK
+Add external jars > go to C:\Program Files\Hibernate\hibernate-release-5.2.2.Final (downloaded hibernate framework for this)
+
+Downloading hibernate: Go to http://hibernate.org/orm/downloads/ and download 5.2.2 Final. Save it in downloads.
+Unzip from downloads and extract to C:\Program Files\Hibernate\
+
+Now go to C:\Program Files\Hibernate\hibernate-release-5.2.2.Final\lib\required
+Watch video at 10th mins to 14 mins. Adding all required jars. Then finished as per video.
+
+Hibernate consists of xml called configurations xml. We are studying hibernate 4 which has reduced number of xmls. Old hibernate had many many xmls.
+
+Connect to database:
+Go to Package Explorer > HIBTry > Right click > Build Path > Configure Build Path > Java build path window will open >
+Choose Libraries tab > Add external jars > Go to C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib > Choose ojdbc_6g > Apply > OK
+
+Create a xml:
+Go to Package Exploere > HIBTry > src > Right click > New > Other > Window appears, type xml, choose xml file > Next
+File name: hibernate.cfg.xml (we can give any name, but this is default name)> Next >  Next > Finish
+Benefit of default name: Hibernate uses default name. If we give other name and then we have to specify other name everywhere. 
+
+Create a database in Data Source Explorer named java4 identified by j2ee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

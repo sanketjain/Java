@@ -1,0 +1,14 @@
+
+
+Query parameter:
+pass max price
+pass min price
+
+http://localhost:8085/restfull/javaiw/Products/filter?maxp=50000
+Whatever is written after ? is query. It is called query list.
+And after semicolon is considered as matrix parameter.
+
+HW Application:
+Connect to employee database. 
+POST and Delete are easy. Only the GET request with different uri structures.
+Create uri in such a way that common man could never understand uri. 
