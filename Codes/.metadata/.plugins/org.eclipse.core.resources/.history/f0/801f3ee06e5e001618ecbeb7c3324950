@@ -1,0 +1,9 @@
+package org.javaiw.serverMain;
+//We got main class here. And in net.webservice we got entire webservice as a stub
+public class Main {
+
+	public static void main(String[] args) {
+	
+	}
+
+}

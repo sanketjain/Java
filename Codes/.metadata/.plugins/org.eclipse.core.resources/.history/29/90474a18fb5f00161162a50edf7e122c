@@ -1,0 +1,29 @@
+package org.javaiw.service;
+//This is our webservice in action
+import java.util.ArrayList;
+
+import javax.jws.WebService;
+
+import org.javaiw.model.Product;
+//This is my webservice in action
+import org.javaiw.model.ProductData;
+
+@WebService(endpointInterface="org.javaiw.service.ProductIntf")
+public class EShop implements ProductIntf {
+	ProductData data = new ProductData(); //got my data service object created in webservice
+	
+	public ArrayList<Product> getProducts(){
+		return data.getProducts();
+	}
+
+	public boolean removeProduct(int pid){
+		return data.deleteProduct(pid);
+	}
+	
+	public void addProduct(String pname, int price, String brand){
+		data.addProduct(new Product(-1, pname, price, brand));
+	}
+	
+}
+ 
+
