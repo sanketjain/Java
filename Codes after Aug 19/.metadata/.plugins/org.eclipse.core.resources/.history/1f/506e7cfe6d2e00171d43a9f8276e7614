@@ -1,0 +1,28 @@
+package com.luv2code.web.jdbc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+public class StudentDBUtil {
+
+	private DataSource dataSource;
+	
+	public StudentDBUtil(DataSource theDataSource){
+		dataSource = theDataSource;
+	}
+	
+	public List<Student> getStudent() throws Exception{
+		
+		List<Student> students = new ArrayList<>();
+		
+		Connection myConn = null;
+		Statement myStmt = null;
+		ResultSet myRs = null;
+		
+		
+		return students;
+	}
+	
+}

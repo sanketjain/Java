@@ -1,0 +1,13 @@
+package demo1;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+
+public class App {
+	
+	private BlockingQueue queue = new ArrayBlockingQueue();
+	
+	public static void main(String[] args) {
+		
+	}
+}

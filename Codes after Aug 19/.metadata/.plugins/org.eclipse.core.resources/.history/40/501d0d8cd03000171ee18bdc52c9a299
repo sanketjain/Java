@@ -1,0 +1,20 @@
+<html>
+
+<head>
+<title>Student Registration form</title>
+</head>
+
+<body>
+	<form action="student-checkbox-response.jsp">
+		First name: <input type="text" name="firstName" /> <br />
+		Last name: <input type="text" name="lastName" /> <br />
+		Favorite Programming Language<br /> <input type="checkbox"
+			name="favoriteLanguage" value="Java">Java <input
+			type="checkbox" name="favoriteLanguage" value="C++">C++ <input
+			type="checkbox" name="favoriteLanguage" value="Ruby">Ruby <input
+			type="checkbox" name="favoriteLanguage" value="PHP">PHP <br />
+		<br /> <input type="submit" value="Submit" /> <br /> <br />
+	</form>
+</body>
+
+</html>

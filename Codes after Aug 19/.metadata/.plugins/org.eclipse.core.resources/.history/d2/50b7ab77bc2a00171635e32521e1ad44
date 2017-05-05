@@ -1,0 +1,11 @@
+package com.luv2code.servletdemo.mvctwo;
+
+import java.util.List;
+
+public class StudentDataUtil {
+
+	public static List<Student> getStudents(){
+		
+	}
+	
+}

@@ -1,0 +1,20 @@
+package demo1;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		final Processor processor = new Processor();
+
+		Thread t1 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+
+				processor.produce();
+			}
+			
+		});
+
+	}
+}

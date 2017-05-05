@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
+	default-init-method="init" default-destroy-method="destroy">
+
+
+	<bean id="person" class="com.caveofprogramming.spring.test.Person"
+		scope="singleton" init-method="onCreate" destroy-method="onDestroy"
+		factory-method="getInstance">
+		<constructor-arg value="777" type="int"></constructor-arg>
+		<constructor-arg value="Mary" type="String"></constructor-arg>
+		<property value="321" name="taxId"></property>
+		<property name="address" ref="address"></property>
+	</bean>
+	
+	<bean id="address" class="com.caveofprogramming.spring.test.Address">
+		<constructor-arg value="1 Church Street"></constructor-arg>
+		<constructor-arg value="9876"></constructor-arg>
+	</bean>
+	
+	<bean id="address2" class="com.caveofprogramming.spring.test.Address">
+		<constructor-arg value="1 Church Street"></constructor-arg>
+		<constructor-arg value="9876"></constructor-arg>
+	</bean>
+	
+	
+	 <bean id="personfactory"
+		class="com.caveofprogramming.spring.test.PersonFactory">
+	</bean>
+</beans>

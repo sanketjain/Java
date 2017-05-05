@@ -1,0 +1,12 @@
+import java.util.Random;
+
+public class Randomizer {
+
+	public static void main(String[] args) {
+		int[] r = new int[100];
+		
+		for (int i = 0; i < 100; i++) {
+			r[i] = random.nextInt(100)
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package com.luv2code.web.jdbc;
+
+import javax.sql.DataSource;
+
+public class StudentDBUtil {
+
+	private DataSource dataSource;
+	
+	public StudentDBUtil(DataSource theDataSource){
+		dataSource = theDataSource;
+	}
+	
+	public List<Student> getStudent() throws Exception{
+		
+	}
+	
+}
