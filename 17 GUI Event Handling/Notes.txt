@@ -1,6 +1,0 @@
-Supporting files are at java730 > src > org.javaiw.GUI > :
-Calc.java - basic outlet
-Calc1.java - basic outlet
-CalcAdapter.java - outlet with little functionality
-
-Created Calculator app

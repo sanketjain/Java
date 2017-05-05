@@ -1,5 +1,0 @@
-Added functionality to calculator
-
-Relevant files are: 
-Calc1.java
-CalcFunctionalHW2.java
