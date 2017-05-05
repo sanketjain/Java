@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;org.javaiw.misc.MiscTask.java&apos; to &apos;MiscTask1.java&apos;&#x0D;&#x0A;- Original project: &apos;java730&apos;&#x0D;&#x0A;- Original element: &apos;org.javaiw.misc.MiscTask.java&apos;&#x0D;&#x0A;- Renamed element: &apos;org.javaiw.misc.MiscTask1.java&apos;" description="Rename compilation unit &apos;MiscTask.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;org.javaiw.misc{MiscTask.java" name="MiscTask1.java" references="false" stamp="1469976053312" version="1.0"/>
-</session>
