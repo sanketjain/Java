@@ -1,9 +1,0 @@
-<html>
-<body>
-<h2>First Servlet Application</h2>
-<form action="./hello">
-	Enter some text: <input type="text"/><br>
-	<input type="submit" />
-</form>
-</body>
-</html>
