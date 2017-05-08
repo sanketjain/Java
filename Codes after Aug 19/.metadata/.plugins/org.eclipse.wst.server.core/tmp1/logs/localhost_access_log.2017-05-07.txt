@@ -1,0 +1,10 @@
+127.0.0.1 - - [07/May/2017:09:50:50 -0400] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [07/May/2017:09:50:52 -0400] "GET /servletdemo/MvcDemoServlet HTTP/1.1" 200 141
+127.0.0.1 - - [07/May/2017:10:32:45 -0400] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [07/May/2017:10:32:47 -0400] "GET /servletdemo/MvcDemoServletTwo HTTP/1.1" 200 507
+127.0.0.1 - - [07/May/2017:10:35:54 -0400] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [07/May/2017:10:35:55 -0400] "GET /servletdemo/index.html HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [07/May/2017:10:35:57 -0400] "GET /servletdemo/MvcDemoServletTwo HTTP/1.1" 200 507
+0:0:0:0:0:0:0:1 - - [07/May/2017:10:36:11 -0400] "GET /servletdemo/MvcDemoServletTwo HTTP/1.1" 200 507
+127.0.0.1 - - [07/May/2017:19:50:56 -0400] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [07/May/2017:19:50:58 -0400] "GET /firstservlet/index.html HTTP/1.1" 200 274
