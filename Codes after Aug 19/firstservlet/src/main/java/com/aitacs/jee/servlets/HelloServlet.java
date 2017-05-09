@@ -28,20 +28,20 @@ public class HelloServlet extends HttpServlet {
 		
 		String name = request.getParameter("name");
 		String email = request.getParameter("email");
-		
+
 		PrintWriter pw = response.getWriter();
 		pw.append("Served at: ");
 		pw.append(request.getContextPath());
 		pw.append("\n");
 		pw.append("Name : "+name);
 		pw.append("\n");
-		pw.append("email : "+email);	
-	
+		pw.append("email : "+email);
+
 		RequestDispatcher rd = request.getRequestDispatcher("index.html");
 		rd.forward(request, response);
 	}
-		
-		
+
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);

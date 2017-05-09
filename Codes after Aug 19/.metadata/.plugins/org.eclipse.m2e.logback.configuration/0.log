@@ -14186,3 +14186,827 @@ Caused by: java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitH
 2017-05-07 19:56:08,864 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-07 19:56:09,752 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-07 19:56:09,759 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 08:06:56,121 [Worker-6] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Error changing index details central|https://repo.maven.apache.org/maven2
+java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-08 08:06:56,255 [Worker-6] ERROR o.e.m.c.i.r.RepositoryRegistry - Could not add repository index
+org.eclipse.core.runtime.CoreException: Could not add repository index
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:945) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 5 common frames omitted
+2017-05-08 08:07:05,011 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 08:07:05,011 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 08:07:05,146 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 08:07:05,156 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 08:07:05,300 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 08:07:05,306 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 08:07:08,172 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 08:07:08,185 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 08:07:08,283 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 08:07:08,291 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 08:07:09,086 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 08:07:09,267 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 08:07:09,379 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 08:07:09,397 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 08:07:09,417 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 08:07:10,753 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 08:07:10,788 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 08:07:10,790 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 08:07:10,813 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 09:58:05,894 [Worker-2] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Error changing index details central|https://repo.maven.apache.org/maven2
+java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-08 09:58:06,145 [Worker-2] ERROR o.e.m.c.i.r.RepositoryRegistry - Could not add repository index
+org.eclipse.core.runtime.CoreException: Could not add repository index
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:945) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 5 common frames omitted
+2017-05-08 09:58:17,002 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 09:58:17,404 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 09:58:17,413 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 09:58:18,026 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 09:58:18,034 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 09:58:25,081 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 09:58:25,092 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 09:58:25,094 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 09:58:25,101 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 10:03:39,560 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:03:39,589 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 10:03:39,590 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:03:39,598 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 10:12:56,820 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:12:56,827 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 10:12:56,829 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:12:56,834 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 10:13:09,326 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:13:09,333 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 10:13:09,339 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:13:09,346 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 10:13:12,551 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:13:12,558 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 10:13:12,565 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:13:12,577 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 10:15:12,307 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:15:12,312 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 10:15:12,319 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 10:15:12,324 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:18:34,632 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-05-08 11:19:27,197 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet
+2017-05-08 11:19:27,198 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomact 9 run
+2017-05-08 11:19:39,282 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2017-05-08 11:19:39,414 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2017-05-08 11:19:39,890 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar
+2017-05-08 11:19:40,114 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar
+2017-05-08 11:19:40,409 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.3.9/maven-core-3.3.9-sources.jar
+2017-05-08 11:19:40,583 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.3.9/maven-core-3.3.9-sources.jar
+2017-05-08 11:19:40,813 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar
+2017-05-08 11:19:40,886 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar
+2017-05-08 11:19:41,121 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.3.9/maven-settings-3.3.9-sources.jar
+2017-05-08 11:19:41,363 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.3.9/maven-settings-3.3.9-sources.jar
+2017-05-08 11:19:41,718 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.3.9/maven-settings-builder-3.3.9-sources.jar
+2017-05-08 11:19:41,952 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.3.9/maven-settings-builder-3.3.9-sources.jar
+2017-05-08 11:19:42,164 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.3.9/maven-builder-support-3.3.9-sources.jar
+2017-05-08 11:19:42,302 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.3.9/maven-builder-support-3.3.9-sources.jar
+2017-05-08 11:19:42,555 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.3.9/maven-repository-metadata-3.3.9-sources.jar
+2017-05-08 11:19:42,698 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.3.9/maven-repository-metadata-3.3.9-sources.jar
+2017-05-08 11:19:42,981 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar
+2017-05-08 11:19:43,241 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar
+2017-05-08 11:19:43,605 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar
+2017-05-08 11:19:43,931 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar
+2017-05-08 11:19:44,368 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.3.9/maven-model-builder-3.3.9-sources.jar
+2017-05-08 11:19:44,473 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.3.9/maven-model-builder-3.3.9-sources.jar
+2017-05-08 11:19:44,826 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.3.9/maven-aether-provider-3.3.9-sources.jar
+2017-05-08 11:19:45,041 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.3.9/maven-aether-provider-3.3.9-sources.jar
+2017-05-08 11:19:45,309 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:45,417 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:45,800 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.2.v20150114/aether-util-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:45,899 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.2.v20150114/aether-util-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:46,313 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21-sources.jar
+2017-05-08 11:19:46,406 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21-sources.jar
+2017-05-08 11:19:46,724 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar
+2017-05-08 11:19:46,828 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar
+2017-05-08 11:19:47,140 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6-sources.jar
+2017-05-08 11:19:47,224 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6-sources.jar
+2017-05-08 11:19:47,621 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3-sources.jar
+2017-05-08 11:19:47,760 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3-sources.jar
+2017-05-08 11:19:48,119 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
+2017-05-08 11:19:48,290 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
+2017-05-08 11:19:48,638 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.3.9/maven-embedder-3.3.9-sources.jar
+2017-05-08 11:19:48,722 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.3.9/maven-embedder-3.3.9-sources.jar
+2017-05-08 11:19:49,359 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2017-05-08 11:19:49,441 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2017-05-08 11:19:49,698 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar
+2017-05-08 11:19:49,909 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar
+2017-05-08 11:19:50,527 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.3.9/maven-compat-3.3.9-sources.jar
+2017-05-08 11:19:50,651 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.3.9/maven-compat-3.3.9-sources.jar
+2017-05-08 11:19:51,156 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10-sources.jar
+2017-05-08 11:19:51,215 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10-sources.jar
+2017-05-08 11:19:51,659 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2017-05-08 11:19:51,750 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2017-05-08 11:19:52,240 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar
+2017-05-08 11:19:52,532 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar
+2017-05-08 11:19:53,025 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.2.v20150114/aether-impl-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:53,129 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.2.v20150114/aether-impl-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:53,644 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.2.v20150114/aether-spi-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:53,927 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.2.v20150114/aether-spi-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:54,406 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.16.0/aether-connector-okhttp-0.16.0-sources.jar
+2017-05-08 11:19:54,601 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.16.0/aether-connector-okhttp-0.16.0-sources.jar
+2017-05-08 11:19:54,890 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0-sources.jar
+2017-05-08 11:19:54,990 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0-sources.jar
+2017-05-08 11:19:55,288 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0-sources.jar
+2017-05-08 11:19:55,364 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0-sources.jar
+2017-05-08 11:19:55,909 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-connector-basic/1.0.2.v20150114/aether-connector-basic-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:56,020 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-connector-basic/1.0.2.v20150114/aether-connector-basic-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:56,269 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-transport-wagon/1.0.2.v20150114/aether-transport-wagon-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:56,413 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-transport-wagon/1.0.2.v20150114/aether-transport-wagon-1.0.2.v20150114-sources.jar
+2017-05-08 11:19:56,838 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/2.10/wagon-file-2.10-sources.jar
+2017-05-08 11:19:56,957 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/2.10/wagon-file-2.10-sources.jar
+2017-05-08 11:19:57,315 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2017-05-08 11:19:57,479 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2017-05-08 11:19:58,134 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+2017-05-08 11:19:58,232 [Worker-48] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+2017-05-08 11:20:06,604 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet
+2017-05-08 11:20:06,604 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat9run
+2017-05-08 11:20:36,630 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet
+2017-05-08 11:20:36,630 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat9run
+2017-05-08 11:20:46,062 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-05-08 11:20:52,676 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet
+2017-05-08 11:20:52,681 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat9:run
+2017-05-08 11:28:49,604 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:28:49,614 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:28:49,628 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:28:49,634 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:29:41,861 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:29:41,899 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:29:41,903 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:29:41,978 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:29:45,686 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:29:45,709 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:29:45,720 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:29:45,744 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:29:48,533 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:29:48,544 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:29:48,545 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:29:48,567 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:40:34,272 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\pom.xml.
+2017-05-08 11:40:34,344 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:40:34,386 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:40:34,394 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:40:34,401 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:40:34,492 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:40:34,498 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:40:34,505 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:40:34,513 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:40:35,745 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:40:35,756 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:40:35,762 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:40:35,767 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:41:49,015 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:41:49,031 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:41:49,047 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:41:49,061 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:43:15,813 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:43:15,830 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:43:15,844 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:43:15,856 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:43:18,082 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @6396875ms
+2017-05-08 11:43:18,475 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-05-08 11:43:18,601 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@78652872{/help,null,AVAILABLE}
+2017-05-08 11:43:18,660 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2bcafb68{HTTP/1.1,[http/1.1]}{127.0.0.1:55762}
+2017-05-08 11:43:18,660 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @6397453ms
+2017-05-08 11:43:23,459 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:43:23,471 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:43:23,483 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:43:23,527 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:43:31,226 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:43:31,230 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:43:31,235 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:43:31,241 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:44:18,596 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:44:18,604 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:44:18,612 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:44:18,617 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:46:28,790 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:46:28,801 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:46:28,813 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:46:28,821 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:46:37,114 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:46:37,132 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:46:37,149 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:46:37,171 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservletHW\src\test\resources
+2017-05-08 11:47:08,193 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:47:08,224 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:47:08,236 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:47:08,243 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:47:08,249 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:47:08,429 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:47:08,436 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:47:08,438 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:47:08,444 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:47:08,717 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:47:08,723 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:47:08,725 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:47:08,730 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:48:40,405 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:48:40,430 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:48:40,435 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:48:40,449 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:50:51,474 [Worker-62] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-08 11:50:52,029 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:50:52,109 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 11:50:52,124 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:52,138 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:52,146 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:52,153 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:52,550 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:52,561 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:52,568 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:52,575 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:52,805 [Worker-62] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/main/java
+2017-05-08 11:50:52,811 [Worker-62] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstLogin/src/main/resources
+2017-05-08 11:50:52,811 [Worker-62] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/test/java
+2017-05-08 11:50:54,144 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:54,150 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:54,161 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:54,168 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:54,216 [Worker-62] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstservlet/src/main/java
+2017-05-08 11:50:54,216 [Worker-62] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstservlet/src/main/resources
+2017-05-08 11:50:54,223 [Worker-62] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstservlet/src/test/java
+2017-05-08 11:50:54,678 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:54,683 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:54,690 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:54,699 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:50:54,795 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstLogin
+2017-05-08 11:50:54,815 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstservlet
+2017-05-08 11:50:54,821 [Worker-62] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-05-08 11:50:55,149 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:50:55,190 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:50:55,192 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:50:55,241 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:50:55,249 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-08 11:50:55,250 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-08 11:50:55,254 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:55,260 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:50:55,269 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:55,274 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:50:55,281 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:50:55,365 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:50:55,404 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:50:55,405 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:50:55,411 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:50:55,411 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstservlet
+2017-05-08 11:50:55,411 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstservlet
+2017-05-08 11:50:55,414 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:55,419 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:50:55,426 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:50:55,439 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:50:55,451 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:51:22,505 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:51:22,574 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:51:22,579 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:51:22,584 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:51:22,589 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:51:22,781 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:51:22,795 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:51:22,796 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:51:22,801 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:51:22,802 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-08 11:51:22,802 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-08 11:51:22,803 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:51:22,811 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:51:22,818 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:51:22,829 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:51:22,837 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:11,559 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2bcafb68{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-05-08 11:52:11,585 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@78652872{/help,null,UNAVAILABLE}
+2017-05-08 11:52:37,969 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:52:38,907 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:39,084 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:39,240 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:39,250 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:39,323 [Worker-7] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Error changing index details central|https://repo.maven.apache.org/maven2
+java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-08 11:52:39,447 [Worker-7] ERROR o.e.m.c.i.r.RepositoryRegistry - Could not add repository index
+org.eclipse.core.runtime.CoreException: Could not add repository index
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:945) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 5 common frames omitted
+2017-05-08 11:52:40,685 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:40,713 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:52:40,715 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:40,726 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:52:42,520 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:52:42,522 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 11:52:42,591 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:42,599 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:42,607 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:42,618 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:43,479 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:43,488 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:52:43,522 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:43,541 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:52:44,356 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:52:44,461 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 11:52:44,494 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:44,508 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:44,514 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:44,526 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:44,991 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:45,011 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:45,019 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:52:45,031 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:52:45,546 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:45,564 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:52:45,567 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:45,573 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:52:45,618 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:45,627 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:52:45,628 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:52:45,636 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:53:24,807 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:53:24,826 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:24,831 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:53:24,841 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:24,847 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:53:24,931 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:53:24,939 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:53:24,940 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:53:24,945 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:53:24,949 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-08 11:53:24,950 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-08 11:53:24,953 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:24,957 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:53:24,963 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:24,968 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:53:24,980 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:53:42,370 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:53:42,387 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:42,394 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:53:42,401 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:42,405 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:53:42,652 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:53:42,657 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:53:42,658 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:53:42,663 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:53:42,667 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-08 11:53:42,668 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-08 11:53:42,670 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:42,675 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:53:42,680 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:53:42,685 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:53:42,694 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:54:04,287 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:54:04,345 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:54:04,354 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:54:04,363 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:54:04,367 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:54:04,440 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:54:04,449 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:54:04,450 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:54:04,452 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:54:04,457 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-08 11:54:04,458 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-08 11:54:04,460 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:54:04,466 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:54:04,471 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:54:04,476 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:54:04,488 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:55:15,260 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-08 11:55:15,365 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-08 11:55:15,389 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:55:15,399 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:55:15,408 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:55:15,416 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:55:15,635 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/main/java
+2017-05-08 11:55:15,636 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstLogin/src/main/resources
+2017-05-08 11:55:15,637 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/test/java
+2017-05-08 11:55:16,524 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:55:16,533 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:55:16,542 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:55:16,551 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:55:16,899 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstLogin
+2017-05-08 11:55:16,907 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-08 11:55:17,703 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:55:17,712 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:55:17,719 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:55:17,731 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-08 11:55:17,731 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-08 11:55:17,731 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-08 11:55:17,740 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:55:17,747 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:55:17,755 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:55:17,762 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:55:17,781 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:57:33,631 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @318985ms
+2017-05-08 11:57:33,857 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-05-08 11:57:33,961 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@490e93c6{/help,null,AVAILABLE}
+2017-05-08 11:57:33,985 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@ca242de{HTTP/1.1,[http/1.1]}{127.0.0.1:56386}
+2017-05-08 11:57:33,986 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @319339ms
+2017-05-08 11:57:48,539 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-08 11:57:49,059 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstservlet:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\pom.xml.
+2017-05-08 11:57:49,089 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:57:49,102 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:57:49,110 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:57:49,117 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:57:49,207 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstservlet/src/main/java
+2017-05-08 11:57:49,207 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstservlet/src/main/resources
+2017-05-08 11:57:49,208 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstservlet/src/test/java
+2017-05-08 11:57:50,184 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:57:50,208 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:57:50,217 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:57:50,225 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-08 11:57:50,288 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstservlet
+2017-05-08 11:57:50,296 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-08 11:57:50,625 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:57:50,649 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-08 11:57:50,651 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-08 11:57:50,665 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet\src\test\resources
+2017-05-08 11:57:50,665 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstservlet
+2017-05-08 11:57:50,665 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstservlet
+2017-05-08 11:57:50,667 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:57:50,679 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:57:50,681 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-08 11:57:50,688 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-08 11:57:50,696 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:18:39,827 [Worker-151] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-09 09:18:44,254 [Worker-151] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 09:18:44,316 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:18:44,335 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:18:44,346 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:18:44,357 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:18:46,349 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/main/java
+2017-05-09 09:18:46,350 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstLogin/src/main/resources
+2017-05-09 09:18:46,350 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/test/java
+2017-05-09 09:18:47,075 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:18:47,103 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:18:47,111 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:18:47,120 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:18:47,225 [Worker-151] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstLogin
+2017-05-09 09:18:47,289 [Worker-151] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2017-05-09 09:18:47,695 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:18:47,708 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:18:47,711 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:18:47,718 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:18:47,718 [Worker-151] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-09 09:18:47,723 [Worker-151] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-09 09:18:47,726 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:18:47,733 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 09:18:47,739 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:18:47,752 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 09:18:47,759 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:20:59,849 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:20:59,859 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:20:59,861 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:20:59,865 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:37:00,825 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:37:00,832 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:37:00,840 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:37:00,848 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:37:20,831 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:37:20,838 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:37:20,844 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:37:20,849 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:37:29,199 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:37:29,211 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:37:29,219 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:37:29,238 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:39:09,220 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:39:09,228 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:39:09,236 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:39:09,241 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:39:25,572 [Worker-170] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-09 09:39:25,950 [Worker-170] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 09:39:25,985 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:39:25,999 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:39:26,010 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:39:26,018 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:39:26,518 [Worker-170] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/main/java
+2017-05-09 09:39:26,519 [Worker-170] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstLogin/src/main/resources
+2017-05-09 09:39:26,519 [Worker-170] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/test/java
+2017-05-09 09:39:27,116 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:39:27,122 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:39:27,128 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:39:27,138 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:39:27,197 [Worker-170] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstLogin
+2017-05-09 09:39:27,207 [Worker-170] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-09 09:39:27,680 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:39:27,687 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:39:27,689 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:39:27,699 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:39:27,699 [Worker-169] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-09 09:39:27,699 [Worker-169] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-09 09:39:27,701 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:39:27,707 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 09:39:27,713 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:39:27,718 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 09:39:27,725 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:44:41,810 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:44:41,817 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:44:41,818 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:44:41,823 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:44:46,346 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@ca242de{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-05-09 09:44:46,372 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@490e93c6{/help,null,UNAVAILABLE}
+2017-05-09 09:55:21,970 [Worker-10] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Error changing index details central|https://repo.maven.apache.org/maven2
+java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-09 09:55:21,982 [Worker-10] ERROR o.e.m.c.i.r.RepositoryRegistry - Could not add repository index
+org.eclipse.core.runtime.CoreException: Could not add repository index
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:945) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_4p_1.del (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_131]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.util.BitVector.<init>(BitVector.java:199) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.loadDeletedDocs(SegmentReader.java:402) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:368) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 5 common frames omitted
+2017-05-09 09:55:32,378 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 09:55:32,378 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 09:55:32,558 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:55:32,568 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:55:32,867 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:55:32,876 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:55:39,247 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:55:39,312 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:55:39,605 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 09:55:39,605 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:55:39,620 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 09:55:40,085 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:55:40,093 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:55:40,102 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 09:55:40,114 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 09:55:40,916 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:55:41,020 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 09:55:41,022 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 09:55:41,201 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 10:01:06,189 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:01:06,201 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 10:01:06,207 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:01:06,212 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 10:16:10,802 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:16:10,810 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 10:16:10,812 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:16:10,825 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 10:17:16,054 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:17:16,061 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 10:17:16,068 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:17:16,075 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 10:18:04,217 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:18:04,234 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 10:18:04,236 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:18:04,250 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 10:18:06,306 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:18:06,312 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 10:18:06,318 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 10:18:06,326 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 12:46:39,203 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:46:39,212 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 12:46:39,214 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:46:39,227 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 12:46:45,397 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:46:45,412 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 12:46:45,426 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:46:45,435 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 12:51:21,733 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:51:21,743 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 12:51:21,745 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:51:21,761 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources

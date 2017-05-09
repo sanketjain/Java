@@ -4,7 +4,7 @@ class Runner extends Thread {
 	public void run() {
 
 		for (int i = 0; i < 10; i++) {
-			System.out.println("Hola" + i);
+			System.out.println("Hola extends thread: " + i);
 
 			try {
 				Thread.sleep(100);

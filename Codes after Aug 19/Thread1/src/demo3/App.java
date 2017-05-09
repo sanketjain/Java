@@ -3,12 +3,12 @@ package demo3;
 public class App {
 
 	public static void main(String[] args) {
-		Thread t1 = new Thread(new Runnable(){
+		Thread t1 = new Thread(new Runnable() {
 
 			@Override
 			public void run() {
 				for (int i = 0; i < 10; i++) {
-					System.out.println("Hola" + i);
+					System.out.println("Hola shortcut: " + i);
 
 					try {
 						Thread.sleep(100);
@@ -17,9 +17,9 @@ public class App {
 						e.printStackTrace();
 					}
 				}
-				
+
 			}
-			
+
 		});
 		t1.start();
 	}

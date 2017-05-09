@@ -4,7 +4,7 @@ class Runner implements Runnable{
 
 	public void run() {
 		for (int i = 0; i < 10; i++) {
-			System.out.println("Hola" + i);
+			System.out.println("Hola Runnable : " + i);
 
 			try {
 				Thread.sleep(100);

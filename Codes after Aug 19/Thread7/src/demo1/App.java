@@ -57,6 +57,6 @@ public class App {
 
 				System.out.println("Taken value: " + value + "; Queue size is: " + queue.size());
 			}
-		}
+		}  
 	}
 }
