@@ -15010,3 +15010,256 @@ Caused by: java.io.FileNotFoundException: C:\Users\sj265\OneDrive\Documents\GitH
 2017-05-09 12:51:21,743 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-09 12:51:21,745 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-09 12:51:21,761 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 12:55:49,830 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @10945376ms
+2017-05-09 12:55:50,209 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-05-09 12:55:50,365 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@23399b6e{/help,null,AVAILABLE}
+2017-05-09 12:55:50,410 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@36d33335{HTTP/1.1,[http/1.1]}{127.0.0.1:56529}
+2017-05-09 12:55:50,418 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @10945964ms
+2017-05-09 12:58:36,844 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:58:36,854 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 12:58:36,860 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:58:36,881 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 12:58:41,039 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:58:41,048 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 12:58:41,059 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:58:41,073 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 12:59:22,129 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:59:22,150 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 12:59:22,160 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 12:59:22,172 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:05:15,223 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:05:15,245 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:05:15,252 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:05:15,271 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:07:42,683 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:07:42,703 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:07:42,712 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:07:42,729 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:10:57,503 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:10:57,514 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:10:57,523 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:10:57,531 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:11:06,830 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:11:06,843 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:11:06,850 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:11:06,857 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:12:25,819 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:12:25,833 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:12:25,845 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:12:25,858 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:12:33,358 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:12:33,364 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:12:33,371 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:12:33,380 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:12:55,426 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:12:55,445 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:12:55,453 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:12:55,473 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:13:13,042 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:13:13,226 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:13:13,236 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:13:13,360 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:13:23,051 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:13:23,071 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:13:23,087 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:13:23,108 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:15:12,872 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:15:12,886 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:15:12,895 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:15:12,902 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:15:28,572 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:15:28,579 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:15:28,588 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:15:28,603 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:15:45,587 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:15:45,607 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:15:45,616 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:15:45,625 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:16:04,110 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:16:04,133 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:16:04,151 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:16:04,171 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:16:31,169 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:16:31,178 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:16:31,188 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:16:31,195 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:18:03,720 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:18:03,739 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:18:03,754 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:18:03,774 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:19:04,657 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:19:04,677 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:19:04,690 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:19:04,711 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:19:08,481 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:19:08,491 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:19:08,506 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:19:08,519 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:24:15,654 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:24:15,662 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:24:15,670 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:24:15,687 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:25:49,593 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:25:49,603 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:25:49,615 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:25:49,637 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:26:43,560 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:26:43,576 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:26:43,589 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:26:43,604 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:26:58,113 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-09 13:26:58,574 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 13:26:58,631 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:26:58,641 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:26:58,654 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:26:58,659 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:26:59,200 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/main/java
+2017-05-09 13:26:59,201 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstLogin/src/main/resources
+2017-05-09 13:26:59,202 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/test/java
+2017-05-09 13:27:00,648 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:27:00,663 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:27:00,679 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:27:00,702 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:27:00,840 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstLogin
+2017-05-09 13:27:00,866 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-05-09 13:27:01,275 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:27:01,320 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:27:01,322 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:27:01,348 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:27:01,348 [Worker-81] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-09 13:27:01,349 [Worker-81] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-09 13:27:01,353 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:27:01,366 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 13:27:01,371 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:27:01,377 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 13:27:01,389 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:28:51,003 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:28:51,022 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:28:51,025 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:28:51,034 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:30:05,603 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:05,627 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:30:05,629 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:05,642 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:30:16,220 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:16,233 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:30:16,234 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:16,243 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:30:20,421 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:20,427 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:30:20,428 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:20,433 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:30:28,836 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:28,855 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:30:28,858 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:28,867 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:30:33,695 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:33,714 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:30:33,721 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:30:33,729 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:31:05,326 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:31:05,332 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:31:05,333 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:31:05,339 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:32:12,766 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:32:12,779 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:32:12,786 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:32:12,790 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:43:27,155 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:43:27,167 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:43:27,168 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:43:27,175 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:44:24,742 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:44:24,755 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:44:24,760 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:44:24,767 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:46:12,782 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:46:12,792 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:46:12,794 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:46:12,805 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:46:21,661 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:46:21,668 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:46:21,676 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:46:21,683 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:46:30,957 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:46:30,963 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:46:30,964 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:46:30,969 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:48:12,440 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:48:12,456 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:48:12,463 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:48:12,470 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:48:18,491 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:48:18,502 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:48:18,504 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:48:18,511 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:52:49,512 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:52:49,526 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:52:49,535 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:52:49,543 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:55:13,458 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:55:13,502 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:55:13,503 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:55:13,509 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:55:47,249 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:55:47,259 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:55:47,267 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:55:47,274 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:56:26,819 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:56:26,833 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:56:26,835 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:56:26,845 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:57:14,209 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:57:14,221 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:57:14,234 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:57:14,250 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:57:29,002 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:57:29,061 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:57:29,062 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:57:29,074 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:58:01,302 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:01,316 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:58:01,327 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:01,339 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:58:19,989 [Worker-99] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-09 13:58:20,489 [Worker-99] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.aitacs.jee:firstLogin:0.0.1-SNAPSHOT @ C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\pom.xml.
+2017-05-09 13:58:20,510 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:58:20,518 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:58:20,533 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:58:20,541 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:58:21,108 [Worker-99] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/main/java
+2017-05-09 13:58:21,108 [Worker-99] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstLogin/src/main/resources
+2017-05-09 13:58:21,113 [Worker-99] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstLogin/src/test/java
+2017-05-09 13:58:22,370 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:58:22,376 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:58:22,381 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:58:22,390 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-05-09 13:58:22,433 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstLogin
+2017-05-09 13:58:22,444 [Worker-99] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-05-09 13:58:22,738 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:22,755 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:58:22,757 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:22,773 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:58:22,774 [Worker-102] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstLogin
+2017-05-09 13:58:22,779 [Worker-102] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstLogin
+2017-05-09 13:58:22,781 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:58:22,788 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 13:58:22,795 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 is missing, no dependency information available
+2017-05-09 13:58:22,808 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215: Plugin org.apache.tomcat.maven:tomcat8-war-runner:3.0-r1655215 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-war-runner:jar:3.0-r1655215 has not been downloaded from it before.
+2017-05-09 13:58:22,818 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:48,483 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:48,499 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:58:48,501 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:48,513 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:58:59,481 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:59,503 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:58:59,504 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:58:59,511 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 13:59:12,879 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:59:12,885 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 13:59:12,886 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 13:59:12,893 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
+2017-05-09 14:00:35,346 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 14:00:35,363 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-09 14:00:35,375 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-09 14:00:35,381 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstLogin\src\test\resources
