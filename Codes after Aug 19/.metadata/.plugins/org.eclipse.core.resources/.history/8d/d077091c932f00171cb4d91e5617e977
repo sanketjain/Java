@@ -1,8 +1,0 @@
-package demo1;
-
-public class Worker {
-
-	public void main(){
-		System.out.println("Hello");
-	}
-}

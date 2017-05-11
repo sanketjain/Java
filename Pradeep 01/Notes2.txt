@@ -1,0 +1,4 @@
+
+
+On running servlet got error: ClassNotFound for jdbc driver
+Kept odbc14.jar in tomcat/lib

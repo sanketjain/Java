@@ -28,14 +28,14 @@ public class HelloServlet extends HttpServlet {
 		System.out.println("entered the HelloServlet Constructor");
 	}
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Entered the doGet method of HelloServlet");
 
 		String name = request.getParameter("name");
 		String password = request.getParameter("password");
 		System.out.println("Name entered by you is " + name + " and password is " + password);
+
+		String pout = "invalid login";
 
 		// JDBC code to get all users from sql database and compare the data
 		// entered by user
@@ -55,19 +55,18 @@ public class HelloServlet extends HttpServlet {
 													// new statement object
 			ResultSet rs = st.executeQuery("select * from userinfo");
 
-			String pout = "invalid login";
 			while (rs.next()) {
 				String uname = rs.getString("uname");
 				String upassword = rs.getString("upassword");
 				// System.out.println(uname + " " + upassword); //prints all
-				if (uname.equals(name) && password.equals(password)) {
+				if (uname.equals(name) && upassword.equals(password)) {
 					pout = "Login Successful! Welcome " + uname;
 				}
 			}
 
-			System.out.println(pout);
-			request.setAttribute("message", pout);
-			
+//			System.out.println(pout);
+//			request.setAttribute("message", pout);
+
 			rs.close(); // close the result set
 			st.close(); // close the statement
 			con.close(); // close the connection
@@ -76,20 +75,13 @@ public class HelloServlet extends HttpServlet {
 		}
 
 		PrintWriter pw = response.getWriter();
-		pw.append("Served at: ");
-		pw.append(request.getContextPath());
-		pw.append("\n");
-		pw.append("Name : " + name);
-		pw.append("\n");
-		pw.append("email : " + password);
+		pw.append(pout);
 
-		RequestDispatcher rd = request.getRequestDispatcher("index.html");
-		rd.forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		System.out.println("Entered the doPost method");
 		doGet(request, response);
 	}
 

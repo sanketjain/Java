@@ -28,22 +28,28 @@ public class HelloServlet extends HttpServlet {
 		
 		String name = request.getParameter("name");
 		String email = request.getParameter("email");
-
+		//String myTextValue = request.getParameter("myText");
+		
 		PrintWriter pw = response.getWriter();
 		pw.append("Served at: ");
 		pw.append(request.getContextPath());
 		pw.append("\n");
+		//pw.append("Value from myText parameter: "+ myTextValue);
 		pw.append("Name : "+name);
 		pw.append("\n");
 		pw.append("email : "+email);
 
-		RequestDispatcher rd = request.getRequestDispatcher("index.html");
+		RequestDispatcher rd = request.getRequestDispatcher("index2.html");
 		rd.forward(request, response);
+		//rd.include(request, response);
+	//	response.sendRedirect("index2.html");
+		
 	}
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		 System.out.println("Entered the doPost method");
 		doGet(request, response);
 	}
 
