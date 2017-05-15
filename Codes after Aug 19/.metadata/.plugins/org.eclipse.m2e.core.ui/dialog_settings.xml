@@ -4,14 +4,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com."/>
-			<item value="com.aitacs.j2ee"/>
+			<item value="com.aitacs"/>
 		</list>
 		<list key="name">
-			<item value="samplemaven"/>
+			<item value="servletproj"/>
+			<item value="servlet"/>
+			<item value="servletproject"/>
 		</list>
 		<list key="artifactId">
-			<item value="samplemaven"/>
+			<item value="servletproj"/>
+			<item value="servletproject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -78,6 +80,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-41"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-8"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-5"/>
@@ -95,13 +98,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.aitacs.jee.firstservlet"/>
 		</list>
 		<list key="groupId">
-			<item value="com.aitacs.jee"/>
 		</list>
 		<list key="artifactId">
-			<item value="firstservlet"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

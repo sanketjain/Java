@@ -1,6 +1,8 @@
 package com.aitacs.jee.servlets;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,12 +23,16 @@ public class LoginServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Entered the doGet method of LoginServlet");
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		String name = request.getParameter("name");
+		String password = request.getParameter("email");
+
+		PrintWriter pw = response.getWriter();
+		pw.append("Name from first page: " + name + " \n" + "Password from first page: " + password);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Entered the doPost method of LoginServlet");		
 		doGet(request, response);
 	}
-
 }
