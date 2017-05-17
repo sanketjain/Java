@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit transaction-type="RESOURCE_LOCAL" name="jpademo">
+		
+		<description>JPA Demo persistence Unit</description>
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<!-- <mapping-file>META-INF/mappingFile.xml</mapping-file> -->
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/aitacs" />
+			<property name="javax.persistence.jdbc.user" value="postgres" />
+			<property name="javax.persistence.jdbc.password" value="postgres" />
+			<!-- EclipseLink schema level configuration. -->
+			<property name="eclipselink.ddl-generation" value="create-tables" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"
+				value="createDDL_ddlGeneration.sql" />
+			<property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL_ddlGeneration.sql" />
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+			<property name="eclipselink.logging.level" value="FINE" />
+		</properties>
+
+	</persistence-unit>
+</persistence>

@@ -4,14 +4,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.aitacs.jee"/>
 			<item value="com.aitacs"/>
 		</list>
 		<list key="name">
+			<item value="JPADemo"/>
 			<item value="servletproj"/>
 			<item value="servlet"/>
 			<item value="servletproject"/>
 		</list>
 		<list key="artifactId">
+			<item value="jpademo"/>
 			<item value="servletproj"/>
 			<item value="servletproject"/>
 		</list>

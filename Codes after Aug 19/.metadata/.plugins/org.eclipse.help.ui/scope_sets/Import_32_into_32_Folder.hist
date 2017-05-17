@@ -1,0 +1,6 @@
+#Tue May 16 17:45:19 EDT 2017
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=Import into Folder
