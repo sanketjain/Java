@@ -1,0 +1,38 @@
+package jpademo;
+
+import static org.junit.Assert.*; 
+public class JPARelationshipTest {
+
+	EntityManagerFactory emFactory;
+	EntityManager manager;
+	EntityTransaction transaction;
+	
+	@Before
+	public void setUp() throws Exception {
+		emFactory = Persistence.createEntityManagerFactory("jpademo");
+		manager = emFactory.createEntityManager();
+		transaction = manager.getTransaction();
+		transaction.begin();
+	
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		transaction.commit();
+		manager.close();
+	}
+
+	@Test
+	public void testOneToOneRelation() {
+
+		User user = new User();
+		user.setFirstName("Alex");
+		user.setLastName("Mahome");
+		user.setUserName("amahome");
+		user.setAge(35);
+		user.setEmail("mahome@email.com");
+
+		manager.persist(user);
+	}
+	
+}

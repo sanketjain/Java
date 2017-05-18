@@ -1,0 +1,2 @@
+DROP TABLE user_info CASCADE
+DROP SEQUENCE user_seq
