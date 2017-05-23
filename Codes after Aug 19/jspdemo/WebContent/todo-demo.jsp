@@ -20,7 +20,7 @@
 			session.setAttribute("myToDoList", items);
 		}
 
-		// see if htere is form data to add
+		// see if the is form data to add
 		String theItem = request.getParameter("theItem");
 		if (theItem != null && (!theItem.trim().equals(""))) {
 			items.add(theItem);

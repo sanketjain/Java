@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="JPARelationshipTest" project="jpademo-master-77844cd14706df1673cd1b17a732367bad1d3d39" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="jpademo.JPARelationshipTest" time="2.241">
-    <testcase name="testOneToOneRelation" classname="jpademo.JPARelationshipTest" time="2.241"/>
-  </testsuite>
-</testrun>

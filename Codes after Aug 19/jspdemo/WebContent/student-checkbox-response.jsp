@@ -12,12 +12,10 @@
 	<ul>
 		<%
 			String[] langs = request.getParameterValues("favoriteLanguage");
-
-			if (langs != null) {
+ 			if (langs != null) {
 				for (String tempLang : langs) {
 					out.println("<li>" + tempLang + "</li>");
 				}
-
 			}
 		%>
 	</ul>

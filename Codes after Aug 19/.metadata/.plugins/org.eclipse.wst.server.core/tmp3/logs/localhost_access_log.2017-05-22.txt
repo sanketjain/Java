@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [22/May/2017:10:31:54 -0400] "GET /jspdemo/declaration-test.jsp HTTP/1.1" 200 110
+0:0:0:0:0:0:0:1 - - [22/May/2017:10:36:48 -0400] "GET /jspdemo/fun-test.jsp HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [22/May/2017:10:37:35 -0400] "GET /jspdemo/fun-test.jsp HTTP/1.1" 200 178
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:07:31 -0400] "GET /jspdemo/buildin-test.jsp HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:49:21 -0400] "GET /jspdemo/homepage.jsp HTTP/1.1" 200 259
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:57:24 -0400] "GET /jspdemo/student-response.jsp HTTP/1.1" 200 128
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:57:36 -0400] "GET /jspdemo/student-form.html HTTP/1.1" 200 329
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:57:39 -0400] "GET /jspdemo/student-response.jsp?firstName=s&lastName=j HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:59:55 -0400] "GET /jspdemo/student-dropdown-form.html HTTP/1.1" 200 615
+0:0:0:0:0:0:0:1 - - [22/May/2017:11:59:59 -0400] "GET /jspdemo/student-dropdown-response.jsp?firstName=s&lastName=j&country=India HTTP/1.1" 200 180
+0:0:0:0:0:0:0:1 - - [22/May/2017:12:03:15 -0400] "GET /jspdemo/student-radio-form.html HTTP/1.1" 200 656
+0:0:0:0:0:0:0:1 - - [22/May/2017:12:03:20 -0400] "GET /jspdemo/student-radio-response.jsp?firstName=s&lastName=j&favoriteLanguage=Ruby HTTP/1.1" 200 198
+0:0:0:0:0:0:0:1 - - [22/May/2017:12:03:31 -0400] "GET /jspdemo/student-checkbox-form.html HTTP/1.1" 200 663
+0:0:0:0:0:0:0:1 - - [22/May/2017:12:03:37 -0400] "GET /jspdemo/student-checkbox-response.jsp?firstName=s&lastName=j&favoriteLanguage=Java HTTP/1.1" 200 260
