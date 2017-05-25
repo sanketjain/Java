@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.EventObject"/>
-<fullyQualifiedTypeName name="FormEvent"/>
-<fullyQualifiedTypeName name="sun.text.resources.cldr.de.FormatData_de_LI"/>
-<fullyQualifiedTypeName name="java.util.EventListener"/>
-<fullyQualifiedTypeName name="FormListener"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.FileSystemXmlApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ImportResource"/>
-<fullyQualifiedTypeName name="org.springframework.jmx.export.annotation.ManagedResource"/>
 <fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
@@ -30,8 +18,6 @@
 <fullyQualifiedTypeName name="com.luv2code.web.jdbc.StudentDBUtil"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
@@ -60,4 +46,18 @@
 <fullyQualifiedTypeName name="com.aitacs.jee.jpademo.entities.User"/>
 <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
 <fullyQualifiedTypeName name="com.aitacs.jee.jpademo.entities.Car"/>
+<fullyQualifiedTypeName name="com.aitacs.jee.jpademo.entities.Book"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+<fullyQualifiedTypeName name="com.aitacs.jee.jpademo.entities.Project"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+<fullyQualifiedTypeName name="org.eclipse.persistence.config.QueryHints"/>
+<fullyQualifiedTypeName name="org.eclipse.persistence.config.PessimisticLock"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaBuilder"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaQuery"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.Root"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.Join"/>
 </qualifiedTypeNameHistroy>

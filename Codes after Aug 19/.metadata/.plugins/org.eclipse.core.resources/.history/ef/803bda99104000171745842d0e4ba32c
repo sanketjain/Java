@@ -1,0 +1,16 @@
+package com.aitacs.jee.jpademo.entities;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class Project {
+
+	@Id
+	@GeneratedValue
+	@Column(name="project_id")
+	private int projectId;
+	@Column(name="project_name") private String projectName;
+	private String projectLead;
+	
+}

@@ -1,0 +1,10 @@
+package com.aitacs.jee.jpademo.entities;
+
+public class Book {
+
+	private int bookId;
+	private String name;
+	private String author;
+	
+	
+}
