@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496172248489_2" label="Spring" name="Spring">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-8" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-12" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-16" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-23" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-27" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-30" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-34" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-38" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-41" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-9" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-11" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-33" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-15" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-19" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-22" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-26" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-37" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-40" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-44" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-6" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-10" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-14" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-18" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-21" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-25" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-29" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-32" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-7" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-24" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-13" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-17" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-20" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-28" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-31" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-35" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-39" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-tutorial-42" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496172297157_3" label="Threading" name="Threading">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread10" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread6" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread8" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread11" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread7" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Thread9" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1471621874349_0" label="Window Working Set" name="Aggregate for window 1471621874348"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1471698131650_1" label="Window Working Set" name="Aggregate for window 1471698131650"/>
 </workingSetManager>

@@ -1,0 +1,14 @@
+Mysql password:
+
+user: root
+password: aita
+
+// password: root
+
+
+Schema: 
+name: ifinances
+login name: infinite
+password: skills
+
+
