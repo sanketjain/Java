@@ -4,16 +4,19 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.infiniteskills"/>
 			<item value="com.aitacs.jee"/>
 			<item value="com.aitacs"/>
 		</list>
 		<list key="name">
+			<item value="hibernate-course"/>
 			<item value="JPADemo"/>
 			<item value="servletproj"/>
 			<item value="servlet"/>
 			<item value="servletproject"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate-course"/>
 			<item value="jpademo"/>
 			<item value="servletproj"/>
 			<item value="servletproject"/>
@@ -83,6 +86,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-33"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-41"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-8"/>

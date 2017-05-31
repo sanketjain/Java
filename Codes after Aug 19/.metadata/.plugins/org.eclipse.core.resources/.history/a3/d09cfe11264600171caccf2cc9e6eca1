@@ -1,0 +1,32 @@
+package com.infiniteskills.data;
+
+import javax.management.RuntimeErrorException;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+
+import com.infiniteskills.data.entities.User;
+
+public class HibernateUtil {
+
+	private static final SessionFactory sessionFactory = buildSessionFactory();
+	
+	private static SessionFactory buildSessionFactory(){
+
+		try{
+			Configuration configuration = new Configuration();
+			//Configuration object will hold hibernate specific properties. 
+			//Going to know how we want hibernate to perform
+			//holds all of mapping information
+			configuration.addAnnotatedClass(User.class); 
+			return configuration
+					.buildSessionFactory(new StandardServiceRegistryBuilder()
+							.build());
+			
+		}catch(Exception e){
+			e.printStackTrace();
+			throw new RuntimeErrorException("There was an error building the factory");
+		}
+	}	
+}
