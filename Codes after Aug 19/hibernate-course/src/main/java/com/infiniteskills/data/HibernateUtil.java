@@ -22,9 +22,14 @@ public class HibernateUtil {
 			//holds all of mapping information
 			configuration.addAnnotatedClass(User.class); 
 			return configuration
-					.buildSessionFactory(new StandardServiceRegistryBuilder()
+					.buildSessionFactory(new StandardServiceRegistryBuilder() 
+							.applySettings(configuration.getProperties())
 							.build());
-			
+			//getProperties pass in our configuration to the standard service registry builder and 
+			//builder pattern would invoke the builder method and 
+			//pass the service registry into the build session factory method and
+			//would eventually will end up with a session factory
+			//Warning: As per hibernate documentation - gives incorrect snippet code
 		}catch(Exception e){
 			e.printStackTrace();
 			throw new RuntimeException("There was an error building the factory");
@@ -34,8 +39,5 @@ public class HibernateUtil {
 	//3.
 	public static SessionFactory getSessionFactory(){
 		return sessionFactory; //provide our application with access to our singleton
-	}
-	
+	}	
 }
-
-

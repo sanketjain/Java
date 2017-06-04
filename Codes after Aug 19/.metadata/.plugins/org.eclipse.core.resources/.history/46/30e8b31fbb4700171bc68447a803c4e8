@@ -1,0 +1,31 @@
+package com.aitacs.jee.webservices;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService(name="PTC", portName="PTCPort", serviceName="PTCService")
+public class ProjectTypeCatalog {
+
+	//List<String> projectTypes = null;
+	
+	@WebMethod(operationName="getPTList")
+	public List<String> getProjectTypes(){
+		List<String> projectTypes = new ArrayList<String>();
+		projectTypes.add("INTERNAL");
+		projectTypes.add("TRAINING");
+		addProjectTypes();		
+		return projectTypes;
+	}
+	
+	@WebMethod(exclude=true)
+	public void addProjectTypes(){
+		List<String> projectTypes = null;
+		projectTypes = new ArrayList<String>();
+		projectTypes.add("INTERNAL");
+	}
+	
+	
+}

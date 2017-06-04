@@ -9,7 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity //Entity annotation signals the hibernate that current type may participate in a session and persisted to the underlying relational database
+//Entity annotation signals the hibernate that current type may participate in a session and persisted to the underlying relational database
+@Entity 
 @Table(name="FINANCES_USER")
 public class User {
 

@@ -1,0 +1,5 @@
+Hw:
+
+Do same thing usin Maven, instead of WSImport
+
+Use maven wsimport plugin.

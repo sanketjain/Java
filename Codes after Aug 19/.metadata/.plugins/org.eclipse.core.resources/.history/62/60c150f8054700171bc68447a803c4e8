@@ -1,0 +1,15 @@
+package com.aitacs.jee.webservices;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProjectTypeCatalog {
+
+	public String getProjectTypes(){
+
+		List<String> projectTypes = new ArrayList<String>();
+		
+		return "Internal";
+	}
+	
+}

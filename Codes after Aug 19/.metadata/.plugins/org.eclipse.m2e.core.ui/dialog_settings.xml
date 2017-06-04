@@ -4,22 +4,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.infiniteskills"/>
-			<item value="com.aitacs.jee"/>
-			<item value="com.aitacs"/>
 		</list>
 		<list key="name">
-			<item value="hibernate-course"/>
-			<item value="JPADemo"/>
-			<item value="servletproj"/>
-			<item value="servlet"/>
-			<item value="servletproject"/>
 		</list>
 		<list key="artifactId">
-			<item value="hibernate-course"/>
-			<item value="jpademo"/>
-			<item value="servletproj"/>
-			<item value="servletproject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -86,6 +74,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\webservicedemo"/>
+			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\jpademo"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-33"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\firstservlet"/>
 			<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19\spring-tutorial-41"/>
@@ -105,10 +95,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.aitacs.jee.webservices"/>
 		</list>
 		<list key="groupId">
+			<item value="com.aitacs.jee"/>
 		</list>
 		<list key="artifactId">
+			<item value="webservices"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

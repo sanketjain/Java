@@ -1,0 +1,15 @@
+package com.aitacs.jee.webservices.domain;
+
+import java.util.Date;
+
+public class ProjectInfo {
+	
+	String projectName;
+	String projectCode;
+	int projectId;
+	Date projectEndDate; 
+	Date projectStartDate;
+	String projectLead;
+	
+	
+}

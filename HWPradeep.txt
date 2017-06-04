@@ -1,0 +1,5 @@
+HW:
+
+Name: Calculator of webservice
+add methods: +-/*
+on webservice, should be able to do the calculations as a webservice

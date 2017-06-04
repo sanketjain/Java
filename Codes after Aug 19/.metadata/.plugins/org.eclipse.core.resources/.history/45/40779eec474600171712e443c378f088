@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jpademo-master-77844cd14706df1673cd1b17a732367bad1d3d39">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <property name="context-root" value="jpademo-master-77844cd14706df1673cd1b17a732367bad1d3d39"/>
+        <property name="java-output-path" value="/jpademo-master-77844cd14706df1673cd1b17a732367bad1d3d39/target/classes"/>
+    </wb-module>
+</project-modules>
