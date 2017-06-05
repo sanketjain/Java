@@ -2,6 +2,8 @@ package com.infiniteskills.data.entities;
 
 import java.util.Date;
 
+import javax.persistence.Access;
+import javax.persistence.AccessType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,89 +11,88 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-//Entity annotation signals the hibernate that current type may participate in a session and persisted to the underlying relational database
 @Entity 
 @Table(name="FINANCES_USER")
+@Access(value=AccessType.PROPERTY)
 public class User {
 
-	//Field annotation
-	@Id //Field that corresponds to primary key in the table that this object is associated
-	@GeneratedValue(strategy = GenerationType.IDENTITY)//How we obtain value of primary key or a particular field
-	@Column(name="USER_ID") //specify the column to this field
 	private Long userId;
-
-	@Column(name="FIRST_NAME")
-	private String firstName;
-	
-	@Column(name="LAST_NAME")
+	private String firstName;	
 	private String lastName;
-	
-	@Column(name="BIRTH_DATE")
 	private Date birthDate;
-	
-	@Column(name="EMAIL_ADDRESS")
 	private String emailAddress;
-
-	@Column(name="LAST_UPDATED_DATE")
 	private Date lastUpdatedDate; 
-
-	@Column(name="LAST_UPDATED_BY")
 	private String lastUpdatedBy;
-
-	@Column(name="CREATED_DATE")
 	private Date createdDate;
-
-	@Column(name="CREATED_BY")
 	private String createdBy;
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="USER_ID")
 	public Long getUserId() {
 		return userId;
 	}
 	public void setUserId(Long userId) {
 		this.userId = userId;
 	}
+	
+	@Column(name="FIRST_NAME")
 	public String getFirstName() {
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+	
+	@Column(name="LAST_NAME")
 	public String getLastName() {
 		return lastName;
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
+	@Column(name="BIRTH_DATE")
 	public Date getBirthDate() {
 		return birthDate;
 	}
 	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
 	}
+	
+	@Column(name="EMAIL_ADDRESS")	
 	public String getEmailAddress() {
 		return emailAddress;
 	}
 	public void setEmailAddress(String emailAddress) {
 		this.emailAddress = emailAddress;
 	}
+
+	@Column(name="LAST_UPDATED_DATE")
 	public Date getLastUpdatedDate() {
 		return lastUpdatedDate;
 	}
 	public void setLastUpdatedDate(Date lastUpdatedDate) {
 		this.lastUpdatedDate = lastUpdatedDate;
 	}
+
+	@Column(name="LAST_UPDATED_BY")
 	public String getLastUpdatedBy() {
 		return lastUpdatedBy;
 	}
 	public void setLastUpdatedBy(String lastUpdatedBy) {
 		this.lastUpdatedBy = lastUpdatedBy;
 	}
+
+	@Column(name="CREATED_DATE")
 	public Date getCreatedDate() {
 		return createdDate;
 	}
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
+
+	@Column(name="CREATED_BY")
 	public String getCreatedBy() {
 		return createdBy;
 	}

@@ -9,4 +9,5 @@
   <module moduleId="org.eclipse.jst.jee.server:jspdemo" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:userlogin" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:webservices" serverId="GlassFish 4 at localhost [domain1]"/>
+  <module moduleId="org.eclipse.jst.jee.server:restservices" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>

@@ -1,0 +1,15 @@
+package com.aitacs.jee.restservices;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("account")
+public class UserAccount {
+
+	
+	@GET
+	public String getAccounts(){
+		return "We are in getAccounts method";
+	}
+	
+}
