@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 5\Mapping a Collection of Basic Value Type"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 5\Mapping Composite Value Types"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 5\Mapping a Collection of Composite Types"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 4\Formula"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 4\Temporal"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 4\Field vs Property Access"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 4\Transient"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 4\Identifiers"/>
+		<item value="C:\Users\sj265\Downloads\Hibernate and Java Persistence API (JPA) Fundamentals - Working Files\Chapter 4\Column"/>
 		<item value="C:\Users\sj265\Downloads\jpademo-master-77844cd14706df1673cd1b17a732367bad1d3d39"/>
 		<item value="C:\Users\sj265\OneDrive\Documents\GitHub\Java\Codes after Aug 19"/>
 	</list>
