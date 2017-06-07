@@ -74,6 +74,8 @@ Running SQL commands;
 //user: java5
 //password: j2ee
 
+//user: blogger
+//password: blog
 
 
 
